@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open test.html",
-            "file": "c:\\Users\\darby\\OneDrive\\Documents\\Web Design & Development\\GitHub\\VectorWebDesignDevelopmentJul262023\\kevin_darby_working\\test.html"
+            "file": "c:\\Users\\darby\\OneDrive\\Documents\\Web Design & Development\\GitHub\\VectorWebDesignDevelopmentJul262023\\kevin_darby_working\\index.html"
         }
     ]
 }
