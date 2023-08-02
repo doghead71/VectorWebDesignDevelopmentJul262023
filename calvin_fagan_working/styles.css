@@ -1,0 +1,22 @@
+body {
+    color: #00ff00;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgb(80, 79, 79);
+    }
+      
+    div p { color: black;}
+            
+    #about_me p { color: rgb(0, 0, 255);}
+      
+    .par-pink {
+        color: #fe4cff;
+        }
+
+    ul{
+        color: rgb(155, 5, 160)
+    }
+
+    ol{
+        color: #44f5d8
+    }
