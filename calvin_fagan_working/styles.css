@@ -5,6 +5,7 @@ body {
     background-color: rgb(80, 79, 79);
     }
       
+    div.nav{color: aliceblue}
     div p { color: black;}
             
     #about_me p { color: rgb(0, 0, 255);}
@@ -14,7 +15,7 @@ body {
         }
 
     ul{
-        color: rgb(155, 5, 160)
+        color: #44f5d8
     }
 
     ol{
