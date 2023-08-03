@@ -1,0 +1,14 @@
+body{
+    color: #f2f2f2;
+    font-size: medium;
+    font-weight: lighter;
+    background-color: #000;
+}
+
+#about_me p{
+    color: #009;
+}
+
+.par-pink {
+    color: #60c;
+}
