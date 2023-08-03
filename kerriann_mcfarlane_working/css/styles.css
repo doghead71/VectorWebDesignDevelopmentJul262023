@@ -1,0 +1,16 @@
+body {
+    color: #ff0000;
+    font-size: large;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+
+div p {color: black;}
+
+#about_me p{color: blue;}
+
+.par-pink {
+    color: #fe4cff;
+}
+
+#pinkpar {color: #fe4cff!important;}
