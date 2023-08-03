@@ -1,14 +1,14 @@
 body {
-    color:rgb(21, 0, 255);
+    color:#1500ff;
     font-size: x-large;
     font-weight: bold;
-    background-color: rgb(201, 198, 198);
+    background-color: #c9c6c6;
 }
 
 div p {color: black;}
 
-#about_me p {color: rgba(242, 0, 255, 0.43);}
+#about_me p {color: #f200ff6e;}
 
 .par-brown {
-    color: brown;
+    color: #a52a2a;
 }
