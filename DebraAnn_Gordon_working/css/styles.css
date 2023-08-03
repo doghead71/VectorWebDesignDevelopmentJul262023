@@ -5,10 +5,13 @@ body{
     background-color: #000;
 }
 
-#about_me p{
-    color: #009;
+h1{
+    color: #60c;
 }
 
-.par-pink {
-    color: #60c;
+h2{
+    color: #009;
+}
+h3{
+    color: #009;
 }
