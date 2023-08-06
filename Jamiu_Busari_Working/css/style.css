@@ -7,7 +7,10 @@ background-color: #5f9a5f;
 
 div p { color:black}
 
-#about_me p { color: yellowgreen;}
+#about_me p { 
+    color: yellowgreen;
+    margin-bottom: 40px;
+}
 
 .par-pink {
     color: #fe4cfe;
