@@ -1,12 +1,12 @@
 body {
-    color: rgb(13, 14, 13);
+    color: rgb(12, 12, 12);
     font-size: x-large;
     font-weight: bold;
-    background-color: white;
+    background-color: rgb(253, 251, 250);
 }
 
 div p { color: black;}
-#about_me p { color: gold;}
+#about_me p { color: blue;}
 
 .par-pink {
     color: rgb(190, 33, 140)
