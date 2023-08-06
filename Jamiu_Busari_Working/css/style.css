@@ -8,7 +8,9 @@ background-color: #5f9a5f;
 div p { color:black}
 
 #about_me p { 
-    color: yellowgreen;}
+    color: yellowgreen;
+margin-bottom: 80px;
+}
 
 .par-pink {
     color: #fe4cfe;
