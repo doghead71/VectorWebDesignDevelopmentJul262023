@@ -6,8 +6,9 @@ background-color: #5f9a5f;
 } 
 
 div p { color:black
+    border 1px solid black;
 padding 25px 50px 75px 100px;
-
+background-color: aqua;
 }
 
 #about_me p { 
