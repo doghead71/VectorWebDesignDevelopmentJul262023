@@ -1,4 +1,5 @@
 body{
+    font-family:sans-serif ;
     color: #f2f2f2;
     font-size: medium;
     font-weight: lighter;
@@ -22,4 +23,23 @@ h3{
 p {
     margin-left: 20px;
     padding: 10px;
+}
+
+p.intro::first-line {
+    font-size: larger;
+    font-weight: 400;
+    font-weight: bolder;
+}
+
+a:link {
+    color: aqua;
+    font-style: italic;
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+a:hover {
+    color: red;
 }
