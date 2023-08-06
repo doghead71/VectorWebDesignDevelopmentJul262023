@@ -1,9 +1,9 @@
 body{
     color: #000000;
-    font-size: large;
-    font-weight: bold;
+    font-size: normal;
+    font-weight: normal;
     background-color: #cbc8c8;
-    font-family: 'Franklin Gothic';
+    font-family:"Times New Roman";
 
 }
 
@@ -23,10 +23,11 @@ div p {color: #035a64;}
 #box {width: 200px; float: left; background-color: #ecddc9; margin: 5px 0 5px 5px; border: 5px outset #bb04bb;}
 #box h2 {text-align: center}
 #box ul {list-style-type: circle; margin-left: 20px; padding-left: 0px}
-#box li {font-family: 'Franklin Gothic'; font-size: 8pt;}
+#box li {font-family: 'Times New Roman'; font-size: 8pt;}
 
 
  #links {width: 150px; float: left; background-color: bisque; margin-right: 10px; padding: 10px; border: 5px outset #bb04bb}
+ #links h3 {text-align: center;}
  #links a:link {text-decoration: #420fcf}
  #links a:visited {text-decoration: red}
  #links a:hover {color:#10bc1e; text-decoration: underline}
