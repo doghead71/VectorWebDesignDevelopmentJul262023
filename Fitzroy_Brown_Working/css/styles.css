@@ -1,15 +1,15 @@
 body {
-    color:#1500ff;
+    color: #000000
     font-size: large;
-    font-weight: light;
+    font-weight: bold;
     background-color: #c9c6c6;
 }
 
-div p {color: #840481;}
+div p {color: #035a64;}
 
-#about_me p {color: #f200ff6e;}
+#about_me p {color: #12047c6e;}
 
 .par-brown {
-    color: brown;
+    color: #a52a2a;
 }
-
+    #brownpar {color:#a52a2a;}
