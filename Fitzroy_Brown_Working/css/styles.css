@@ -12,3 +12,5 @@ div p {color: #840481;}
 .par-brown {
     color: brown;
 }
+
+#brownpar {color: brown !important;}
