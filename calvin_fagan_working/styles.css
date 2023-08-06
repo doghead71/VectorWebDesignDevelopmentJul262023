@@ -1,23 +1,78 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    color: #00ff00;
-    font-size: x-large;
-    font-weight: bold;
-    background-color: rgb(80, 79, 79);
-    }
-      
-    div.nav{color: aliceblue}
-    div p { color: black;}
-            
-    #about_me p { color: rgb(0, 0, 255);}
-      
-    .par-pink {
-        color: #fe4cff;
-        }
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #FFE5B4;
+    line-height: 2.0;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+.body{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-    ul{
-        color: #44f5d8
-    }
+.nav {
+    background-color: #333;
+    color: #c5dd9e;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 30px;
 
-    ol{
-        color: #44f5d8
-    }
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.img {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img img {
+    border-radius: 30%;
+    box-shadow: 100px 100px 100px rgba(0, 0, 0, 0.2);
+}
+
+
+.list{ 
+        color: #44f5d8;
+        margin-left: 20px;
+        margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #584c4c;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    color: #e7d9d9;
+    font-size: 16px;
+       
+    text-decoration: none;
+ 
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+h1, h2{
+    text-decoration: underline overline;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    color: #2804f7;
+    text-align: center;
+  }
