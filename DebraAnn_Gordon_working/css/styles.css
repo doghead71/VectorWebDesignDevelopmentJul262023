@@ -3,15 +3,23 @@ body{
     font-size: medium;
     font-weight: lighter;
     background-color: #000;
+    
 }
 
 h1{
     color: #60c;
+    margin-left: 30px;
 }
 
 h2{
     color: #009;
+    margin-left: 30px;
 }
 h3{
     color: #009;
+    margin-left: 30px;
+}
+p {
+    margin-left: 20px;
+    padding: 10px;
 }
