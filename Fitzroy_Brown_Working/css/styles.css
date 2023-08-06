@@ -1,14 +1,17 @@
-body {
-    color: #000000
+body{
+    color: #000000;
     font-size: large;
     font-weight: bold;
-    background-color: white;
+    background-color: #cbc8c8;
 
 }
 
 div p {color: #035a64;}
 
-#about_me p {color: #12047c6e;}
+#about_me p {
+    color: #1505946e;
+    margin-bottom: 40px;
+}
 
 .par-brown {
     color: #a52a2a;
