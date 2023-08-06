@@ -1,0 +1,14 @@
+body {
+    color: rgb(13, 14, 13);
+    font-size: x-large;
+    font-weight: bold;
+    background-color: white;
+}
+
+div p { color: black;}
+#about_me p { color: gold;}
+
+.par-pink {
+    color: rgb(190, 33, 140)
+}
+#pinkpar {color: rgb(165, 28, 108)!important}
