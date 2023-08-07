@@ -10,7 +10,7 @@ body{
 div p {color: #035a64;}
 
 #about_me p {
-    color: #1c08b46e;
+    color: #820368c1;
     margin-bottom: 40px;
 }
 
@@ -22,13 +22,13 @@ div p {color: #035a64;}
     
 #box {width: 200px; float: left; background-color: #ecddc9; margin: 5px 0 5px 5px; border: 5px outset #bb04bb;}
 #box h2 {text-align: center}
-#box ul {list-style-type: circle; margin-left: 20px; padding-left: 0px}
+#box ul {list-style-type: circle; margin-left: 10px; padding-left: 0px}
 #box li {font-family: 'Times New Roman'; font-size: 8pt;}
 
-
- #links {width: 150px; float: left; background-color: bisque; margin-right: 10px; padding: 10px; border: 5px outset #bb04bb}
+ #links {width: 200px; float: left; background-color: bisque; margin-right: 10px; padding: 0px; border: 5px outset #bb04bb}
  #links h3 {text-align: center;}
  #links a:link {text-decoration: #420fcf}
  #links a:visited {text-decoration: red}
  #links a:hover {color:#10bc1e; text-decoration: underline}
  #links a:active {text-decoration: #420fcf}
+ 
