@@ -59,12 +59,29 @@ div.inner-wrapper {
 }
 
 div#navigation {
-    text-align: right;
-    margin: 10px auto;
+    text-align: center;
+    margin: -12px auto auto auto;
+    border: solid #3c4767 2px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: #3c4767;
+    opacity: .88;
+    width: 350px;
+    height: 30px;
+    padding: 10px 0 0 0;
 }
 
 div#navigation a {
-    margin: 0 20px;
+    display: inline-block;
+    width: 80px;
+    text-decoration: none;
+}
+
+div#navigation a#active_tab {
+    background-color: #fff;
+    border-radius: 24px;
+    font-weight: bold;
+    color: #000;
 }
 
 div.inner-wrapper ul,
