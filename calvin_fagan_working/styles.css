@@ -1,4 +1,5 @@
-{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,11 +11,14 @@ body {
     line-height: 2.0;
     margin-bottom: 100px;
     margin: 0 auto;
+    
+
 }
 .body{
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
+    font-size: 20px;
 }
 
 .nav {
@@ -42,13 +46,13 @@ body {
 }
 
 .img img {
+    
     border-radius: 30%;
     box-shadow: 100px 100px 100px rgba(0, 0, 0, 0.2);
 }
 
 
 .list{ 
-        color: #44f5d8;
         margin-left: 20px;
         margin-bottom: 20px;
 }
