@@ -4,12 +4,11 @@ body{
     font-weight: normal;
     background-color: #cbc8c8;
     font-family:"Times New Roman";
-
 }
 
 div p {color: #035a64;}
 
-#img-container {
+#img_container {
     margin-left: 20px;
 }
 
@@ -24,28 +23,29 @@ div p {color: #035a64;}
 
 #parbrown {color: #a52a2a!important}
 
-p::first-letter {
-    font-size: 36px;
-}
-
 #navigation
 {
 text-align: center;
 font-size: large;
 font-weight: bold;
 font-family: 'Times New Roman', Times, serif;
-margin-bottom: 40px;
 }
-    
+
+#firstp::first-letter {
+    float: left; font-size: 36px;
+    line-height: 0.10;
+}
+
+  
 /*#box {width: 200px; float: left; background-color: #ffe4c4; margin: 5px 0 5px 5px; border: 5px outset #bb04bb;}
-/*#box h1, h2, h3 {text-align: center}*/
+#box h1, h2, h3 {text-align: center}
 /*#box ul {list-style-type: circle;margin-left: 10px; padding-left: 0px}
 #box li {font-family: 'Times New Roman'; font-size: 8pt;}*/
 
- /*#links {width: 300px; float: left; background-color: #ffe4c4; margin-right: 10px; padding: 0px; border: 5px outset #bb04bb}
- #links h1, h2, h3 {text-align: center;}
- #links a:link {text-decoration: #420fcf}
+ #links {width: 200px; float: left; background-color: #ffe4c4; margin-right: 10px; padding: 0px; border: 5px outset #bb04bb}
+ /*#links h1, h2, h3 {text-align: center;}*/
+ #links a:link {text-decoration: #2507be}
  #links a:visited {text-decoration: red}
- #links a:hover {color:#10bc1e; text-decoration: underline}
- #links a:active {text-decoration: #420fcf}*/
+ #links a:hover {color:#08a956; text-decoration: underline}
+ #links a:active {text-decoration: #2507be}
  
