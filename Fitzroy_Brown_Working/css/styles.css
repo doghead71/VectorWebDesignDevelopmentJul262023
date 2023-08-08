@@ -9,9 +9,13 @@ body{
 
 div p {color: #035a64;}
 
+#img-container {
+    margin-left: 20px;
+}
+
 #about_me p {
     color: #820368c1;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .par-brown {
@@ -19,26 +23,29 @@ div p {color: #035a64;}
 } 
 
 #parbrown {color: #a52a2a!important}
+
+p::first-letter {
+    font-size: 36px;
+}
+
 #navigation
 {
-   border-style: outset; 
-   border-width: 2px;
-   text-align: center;
-   font-size: large;
-   font-weight: bold;
-   font-family: 'Times New Roman', Times, serif;
-   background-color: #ffe4c4;
+text-align: center;
+font-size: large;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 40px;
 }
     
-#box {width: 200px; float: left; background-color: #ffe4c4; margin: 5px 0 5px 5px; border: 5px outset #bb04bb;}
-#box h2 {text-align: center}
-#box ul {list-style-type: circle; margin-left: 10px; padding-left: 0px}
-#box li {font-family: 'Times New Roman'; font-size: 8pt;}
+/*#box {width: 200px; float: left; background-color: #ffe4c4; margin: 5px 0 5px 5px; border: 5px outset #bb04bb;}
+/*#box h1, h2, h3 {text-align: center}*/
+/*#box ul {list-style-type: circle;margin-left: 10px; padding-left: 0px}
+#box li {font-family: 'Times New Roman'; font-size: 8pt;}*/
 
- #links {width: 300px; float: left; background-color: #ffe4c4; margin-right: 10px; padding: 0px; border: 5px outset #bb04bb}
- #links h3 {text-align: center;}
+ /*#links {width: 300px; float: left; background-color: #ffe4c4; margin-right: 10px; padding: 0px; border: 5px outset #bb04bb}
+ #links h1, h2, h3 {text-align: center;}
  #links a:link {text-decoration: #420fcf}
  #links a:visited {text-decoration: red}
  #links a:hover {color:#10bc1e; text-decoration: underline}
- #links a:active {text-decoration: #420fcf}
+ #links a:active {text-decoration: #420fcf}*/
  
