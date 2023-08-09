@@ -1,6 +1,6 @@
 body{
     color: #000000;
-    font-size: normal;
+    font-size: 16px;
     font-weight: normal;
     background-color: #cbc8c8;
     font-family:"Times New Roman";
@@ -8,7 +8,12 @@ body{
 
 div p {color: #035a64;}
 
-#img_container {
+hi, h2, h3
+{
+    text-align: center;
+}
+
+#img-container {
     margin-left: 20px;
 }
 
@@ -21,7 +26,7 @@ div p {color: #035a64;}
     color: #a52a2a;
 } 
 
-#parbrown {color: #a52a2a!important}
+#parbrown {color: #a52a2a}
 
 #navigation
 {
@@ -32,20 +37,34 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 #firstp::first-letter {
-    float: left; font-size: 36px;
+    float: left; 
+    font-size: 36px;
     line-height: 0.10;
+    clear: left; /*Clear the float after the first letter*/
 }
 
-  
-/*#box {width: 200px; float: left; background-color: #ffe4c4; margin: 5px 0 5px 5px; border: 5px outset #bb04bb;}
-#box h1, h2, h3 {text-align: center}
-/*#box ul {list-style-type: circle;margin-left: 10px; padding-left: 0px}
-#box li {font-family: 'Times New Roman'; font-size: 8pt;}*/
-
- #links {width: 200px; float: left; background-color: #ffe4c4; margin-left: 10px; padding: 0px; border: 5px outset #bb04bb}
- /*#links h1, h2, h3 {text-align: center;}*/
- #links a:link {text-decoration: #2507be}
- #links a:visited {text-decoration: red}
- #links a:hover {color:#08a956; text-decoration: underline}
- #links a:active {text-decoration: #2507be}
+ #links {
+    width: 300px;
+    float: left;
+    background-color: #ffe4c4;
+    margin-left: 10px;
+    padding: 0px;
+    border: 5px outset #bb04bb;
+}
+ 
+ #links a:link {
+    text-decoration: none;
+    color: #2507be;
+}
+ #links a:visited {
+    text-decoration: none;
+    color: #ff0000;
+}
+ #links a:hover {
+    color:#08a956;
+    text-decoration: underline;
+}
+ #links a:active {
+    text-decoration: none;
+}
  
