@@ -42,7 +42,7 @@ font-family: 'Times New Roman', Times, serif;
 /*#box ul {list-style-type: circle;margin-left: 10px; padding-left: 0px}
 #box li {font-family: 'Times New Roman'; font-size: 8pt;}*/
 
- #links {width: 200px; float: left; background-color: #ffe4c4; margin-right: 10px; padding: 0px; border: 5px outset #bb04bb}
+ #links {width: 200px; float: left; background-color: #ffe4c4; margin-left: 10px; padding: 0px; border: 5px outset #bb04bb}
  /*#links h1, h2, h3 {text-align: center;}*/
  #links a:link {text-decoration: #2507be}
  #links a:visited {text-decoration: red}
