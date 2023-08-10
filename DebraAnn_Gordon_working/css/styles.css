@@ -52,7 +52,7 @@ a:hover {
     color: red;
 }
 
-img {
+#img-container {
     float: left;
     margin-left: 40px;
     margin-right: 40px;
