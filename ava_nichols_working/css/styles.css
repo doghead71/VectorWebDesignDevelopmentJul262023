@@ -2,7 +2,18 @@ body{
     font-size: larger;
     font-style: normal;
     background-color: beige;
-    color: blue;
+    color: green;
 }
-div p {color: blueviolet;}
-about me p {color: #00ff00;}
+div p {color: blueviolet;} 
+#about_me p {color: black;}
+#img_container {
+    float:left;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+/* img {
+    float: left;
+} */
+h2 {
+    clear:both;
+}
