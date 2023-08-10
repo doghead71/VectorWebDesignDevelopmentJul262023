@@ -14,3 +14,11 @@ div p {color: black;}
 }
 
 #pinkpar {color: #fe4cff !important;}
+#img_container {
+    float: left;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+h2 {
+    clear:both;
+}
