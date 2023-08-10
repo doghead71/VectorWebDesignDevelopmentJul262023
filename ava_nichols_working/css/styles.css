@@ -6,14 +6,17 @@ body{
 }
 div p {color: blueviolet;} 
 #about_me p {color: black;}
+
 #img_container {
     float:left;
     margin-left: 35px;
     margin-right: 35px;
 }
+
 /* img {
     float: left;
-}*/
+} */
+
 h2 {
     clear: both;
 }
