@@ -46,3 +46,9 @@ a:visited {
 a:hover {
     color: red;
 }
+
+img {
+    float: right;
+    margin-left: 40px;
+    margin-right: 40px;
+}
