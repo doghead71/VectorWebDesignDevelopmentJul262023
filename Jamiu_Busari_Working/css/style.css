@@ -19,15 +19,21 @@ margin-bottom: 200px;
 
 #pinkpar { color: #fe4c00!important}
 
-#img_container{
-    float: right;
+#image_container{
+    float: left;
     margin-left: 40px;
     margin-right: 40px;
 }
-img {
+/*img {
     float: left;
-}
+    margin-left: 40px;
+    margin-right: 40px;
+}*/
 
-h2{
+/*h2{
+    clear: both;
+}*/
+
+#see_achievements {
     clear: both;
 }
