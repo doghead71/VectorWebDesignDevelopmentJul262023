@@ -6,11 +6,13 @@ body{
     font-family:"Times New Roman";
 }
 
-div p {color: #035a64;}
+div p {
+   color: #035a64;
+}
 
 #about_me p {
     color: #820368c1;
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .par-brown {
@@ -25,6 +27,7 @@ text-align: center;
 font-size: large;
 font-weight: bold;
 font-family: 'Times New Roman', Times, serif;
+margin-top: 40px;
 }
 
 #firstp::first-letter {
@@ -34,28 +37,44 @@ font-family: 'Times New Roman', Times, serif;
     clear: left; /*Clear the float after the first letter*/
 }
 
- #links {
-    width: 300px;
-    float: left;
-    background-color: #ffe4c4;
-    margin-left: 10px;
-    padding: 0px;
-    border: 5px outset #bb04bb;
-}
- 
- #links a:link {
+  #nav a:link {
     text-decoration: none;
     color: #2507be;
+    width: 300px;
+    float: center;
+    background-color: #ffe4c4;
+    margin-left: 50px;
+    padding: 10px;
+    border: 5px outset #bb04bb;
 }
- #links a:visited {
+
+ #nav a:visited {
     text-decoration: none;
     color: #ff0000;
 }
- #links a:hover {
+ #nav a:hover {
     color:#08a956;
     text-decoration: underline;
 }
- #links a:active {
+ #nav a:active {
     text-decoration: none;
 }
  
+#imgage-container {
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#img_container {
+    float: left;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+/*h2 {
+    clear: both;
+}*/
+
+#see_achievements {
+    clear: both;
+}
