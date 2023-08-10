@@ -18,3 +18,15 @@ margin-bottom: 200px;
 }
 
 #pinkpar { color: #fe4c00!important}
+
+#img_container{
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+img {
+    float: left;
+}
+h2{
+    clear: both;
+}
