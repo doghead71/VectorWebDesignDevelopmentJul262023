@@ -41,7 +41,7 @@ margin-top: 40px;
     text-decoration: none;
     color: #2507be;
     width: 300px;
-    float: center;
+    float: inline-end;
     background-color: #ffe4c4;
     margin-left: 50px;
     padding: 10px;
@@ -60,7 +60,7 @@ margin-top: 40px;
     text-decoration: none;
 }
  
-#imgage_container {
+#image_container {
     float: left;
     margin-left: 25px;
     margin-right: 25px;
