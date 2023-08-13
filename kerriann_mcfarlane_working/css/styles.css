@@ -51,19 +51,19 @@ h2 {
 
 
 #nav a:active{
-    color: #ff0000;
-    text-decoration: none;
+    color: #ff0000; 
+    text-decoration: none; 
 }
 
 #nav a:hover{
-    font-size:28px;
-    color: #fe4cff;
-    text-decoration: underline; 
+    font-size:28px; 
+    color: #fe4cff; 
+    text-decoration: underline;  
 }
 
 #nav a:visited{
-    color: #00ff00;
-    text-decoration: none; 
+    color: #00ff00; 
+    text-decoration: none;  
 }
     
 
