@@ -2,10 +2,16 @@ body {
     color: #00ff00;
     font-size: large;
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
     background-color: grey;
 }
 
 div p {color: black;}
+
+p{
+    font-weight: lighter;
+}
 
 #about_me p {color: blue;}
 
@@ -18,6 +24,10 @@ div p {color: black;}
     float: left;
     margin-left: 35px;
     margin-right: 35px;
+}
+h1,h2,h3{
+    text-align: center;
+    text-decoration: underline;
 }
 h2 {
     clear:both;
