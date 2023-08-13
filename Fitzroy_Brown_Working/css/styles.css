@@ -27,8 +27,7 @@ div p {
     float: left;
     font-size: 36px;
     line-height: 0.10;
-    clear: left;
-    /*Clear the float after the first letter*/
+    clear: left;/*Clear the float after the first letter*/
 }
 
 #navigation {
