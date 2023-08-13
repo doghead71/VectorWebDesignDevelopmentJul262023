@@ -57,14 +57,15 @@ h2 {
 
 #nav a:hover{
     font-size:28px; 
-    color: #fe4cff; 
+    color: #fe4cff;
     text-decoration: underline;  
 }
 
 #nav a:visited{
-    color: #00ff00; 
+    color: #226592; 
     text-decoration: none;  
 }
+
     
 
 

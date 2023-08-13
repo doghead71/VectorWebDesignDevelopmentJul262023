@@ -4,18 +4,45 @@
 <head>
     <link href="../css/styles.css" type="text/css" rel="stylesheet">
 </head>
+<style>
+    .flex_container {
+        display: flex;
+    }
+
+    #flexy {
+        background-color: #117698;
+        padding: 20px;
+    }
+
+    #flexy>div {
+        background-color: #ff00cc;
+        padding: 15px;
+        margin: 25px;
+        color: white;
+        font-size: 36px;
+    }
+</style>
 
 <body>
     <div id="navigation">
 
         <nav>
 
-            <a href="../index.html">Test</a>
-            <a href="./test2.html">Test2</a>
-            <a href="./test3.html">test3</a>
+            <a href="../index.html">Home</a>
+            <a href="./test2.html">Display example</a>
+            <a href="./test3.html">Flex example</a>
         </nav>
     </div>
+    <h1> Test me - Navigate and flex display</h1>
 
+    <h2> Flexible example</h2>
+
+    <div id="flexy" class="flex_container">
+        <div>One</div>
+        <div>two</div>
+        <div>three</div>
+
+    </div>
     <h1>Audio</h1>
     <audio controls>
         <source src="../audio/sample-15s.mp3" type="audio/mp3">
