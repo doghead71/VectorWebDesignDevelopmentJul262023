@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <style>
+        .flex_container{
+            display: flex;
+        }
+        #flexy{
+            background-color: aliceblue;
+            padding: 20px;
+        }    
+        #flexy > div{
+            background-color:#ff4d00 ;
+            padding: 15px;
+            margin: 25px;
+            color: aliceblue;
+            font-size: 30px;
+        }
+        </style>
 </head>
 <body>
     <div id="Navigation" name="Navigation">
         <nav> 
             <a href="../index.html"> Test </a>
             <a href="./test2.html"> Test2</a>
-            <a href="#"> Test3</a>
+            <a href="#"> Flex Example</a>
         </nav>
+    </div>
+    <h1>
+        TEST ME - NAVIGATE and flex display</h1>
+
+    <h2> Flexible Example</h2>
+    <div id="flexy">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
     </div>
     <div id="video_container">
     <video 
