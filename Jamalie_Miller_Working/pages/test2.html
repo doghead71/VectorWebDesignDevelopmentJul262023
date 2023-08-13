@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <Style>
+            p {color: blue;}
+            p.example_one {display: none;}
+            p.example_two {display: inline;}
+            p.example_three {display: block;}
+            p.example_four {display: inline-block;}
+        </Style>
     </head>
     <body>
-        <h1> TEST ME - NAVIGATE</h1>
-    </body>
     <div id="navigation" name ="nagivation">
         <nav>
             <a href="./Index.html"> Test </a>
-            <a href="#"> Test 2 </a>
-            <a href="./Test3.html"> test 3 </a>
+            <a href="#"> Display Example </a>
+            <a href="./Test3.html"> Flex Example </a>
         </nav>
     </div>
+    <h1> TEST ME - NAVIGATE AND DISPLAY</h1>
+
+    <h2> Testing Display none</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <p class="example_one" >Jamalie Miller!!</p> Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. 
+    </div>
+
+    <h2> Testing Display inline</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <p class="example_two" >Jamalie Miller!!</p> Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. 
+    </div>
+
+    <h2> Testing Display block</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <p class="example_three">Jamalie Miller!!</p> Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. 
+    </div>
+
+    <h2> Testing Display inline block</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <p class="example_four" >Jamalie Miller!!</p> Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. 
+    </div>
+</body>
 </html>
