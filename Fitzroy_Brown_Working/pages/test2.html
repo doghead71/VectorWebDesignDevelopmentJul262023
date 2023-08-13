@@ -2,6 +2,14 @@
 <html>
     <head>
 
+        <style>
+            p {color: blue;}
+            p.example_one {display: none;}
+            p.example_two {display: inline;}
+            P.example_three {display: block;}
+            p.example_four {display: inline-block;}
+        </style>
+
     </head>
     <body>
         <div id="navigation">
@@ -14,8 +22,26 @@
         
         <h1> TEST ME - NAVIGATE AND DISPLAY</h1>
 
+        <H2>Testing display none</H2>
         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p class="example_one">FITZROY BROWN</p> Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. 
         </div>
+
+        <H2>Testing display inline</H2>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p class="example_two">FITZROY BROWN</p> Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. 
+        </div>
+
+        <H2>Testing display block</H2>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p class="example_three">FITZROY BROWN</p> Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. 
+        </div>
+
+        <H2>Testing display inline block</H2>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p class="example_four">FITZROY BROWN</p> Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. 
+        </div>
+
     </body>
+    
 </html>
