@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
+    <style>
+        .flex_container {
+            display:flex;
+        }
+        #flexy {
+            background-color:green;
+            padding:20px;
+            }
+         #flexy > div {
+            background-color: yellow;
+            padding: 15px;
+            margin: 25px;
+            color: blue;
+            font-size: 36px;
+         } 
+    </style>
 </head>
-
 <body>
     <div id="navigation">
         <nav>
@@ -13,7 +26,13 @@
     <a href="#">Flex Example</a>
         </nav>
     </div>
-
+    <h1> TEST ME- NAVIGATE AND FLEX DISPLAY</h1>
+    <h2> Flexible Example</h2>
+    <div id="flexy"  class="flex_container">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+    </div>
 </body>
 </div>
 <div id="video_container">
@@ -23,7 +42,6 @@
      <source src="../video/Video.mp4" type="video/mp4"> 
      video format not supported
      </video> 
-     
 </div>
 <div id="audio">
     <audio
@@ -33,5 +51,4 @@
         audio format not supported
     </audio>
 </div>
-
 </html>
