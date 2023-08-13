@@ -41,3 +41,30 @@ h2 {
     font-size: large;
     font-weight: bold;
 }
+
+#firstp ::first-letter{
+    float:left;
+    font-size: 30px;
+    line-height: 0.52;
+    clear: left; /* clear the float after the first letter */
+}
+
+
+#nav a:active {
+    color:#ff0000;
+    text-decoration: none;
+}
+
+#nav a:hover{
+    font-size:28px;
+    color: #fe4cff;
+    text-decoration: underline; 
+}
+
+#nav a:visited{
+    color: #00ff00;
+    text-decoration: none; 
+}
+    
+
+
