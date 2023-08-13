@@ -1,0 +1,39 @@
+<!DocTYPE html>
+<html>
+    <head>
+
+
+    </head>
+    <body>  
+
+        <div id="NAVIGATION" > 
+            
+            <nav>
+                <a>Test 3 </a>
+                <a href="./test.html">Test</a>
+            </nav>
+     </div>
+
+     <div id="NAVIGATION">
+            
+        <nav>
+            <a>Test 3</a>
+            <a href="./Test2.html">Test</a>
+        </nav>
+ </div>
+
+
+
+
+   <H1> CHRONICLES OF THE PANDA</H1>
+
+
+            
+           
+        
+        
+            <h1></h1>
+    </body>
+</html>
+
+3
