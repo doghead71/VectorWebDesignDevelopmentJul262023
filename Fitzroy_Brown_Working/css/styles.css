@@ -1,13 +1,13 @@
-body{
+body {
     color: #000000;
     font-size: 16px;
     font-weight: normal;
     background-color: #cbc8c8;
-    font-family:"Times New Roman";
+    font-family: "Times New Roman";
 }
 
 div p {
-   color: #035a64;
+    color: #035a64;
 }
 
 #about_me p {
@@ -17,27 +17,29 @@ div p {
 
 .par-brown {
     color: #a52a2a;
-} 
+}
 
-#parbrown {color: #a52a2a}
+#parbrown {
+    color: #a52a2a
+}
 
-#navigation
-{
-text-align: center;
-font-size: large;
-font-weight: bold;
-font-family: 'Times New Roman', Times, serif;
-margin-top: 40px;
+#navigation {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
 }
 
 #firstp::first-letter {
-    float: left; 
+    float: left;
     font-size: 36px;
     line-height: 0.10;
-    clear: left; /*Clear the float after the first letter*/
+    clear: left;
+    /*Clear the float after the first letter*/
 }
 
-  #nav a:link {
+#nav a:link {
     text-decoration: none;
     color: #2507be;
     width: 300px;
@@ -48,23 +50,26 @@ margin-top: 40px;
     border: 5px outset #bb04bb;
 }
 
- #nav a:visited {
+#nav a:visited {
     text-decoration: none;
     color: #ff0000;
 }
- #nav a:hover {
-    color:#08a956;
+
+#nav a:hover {
+    color: #08a956;
     text-decoration: underline;
 }
- #nav a:active {
+
+#nav a:active {
     text-decoration: none;
 }
- 
+
 #image_container {
     float: left;
     margin-left: 25px;
     margin-right: 25px;
 }
+
 #img_container {
     float: left;
     margin-left: 35px;
