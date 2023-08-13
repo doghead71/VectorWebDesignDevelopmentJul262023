@@ -27,10 +27,19 @@
                   /* align-self: center;
                   justify-self: center; */
             }
+
             #two{
                 order: 1;
                 flex-shrink: 0;
                 flex-grow: 2;
+            }
+
+            #five {
+                order :2;
+            }
+
+            #four {
+                order :1;
             }
         </style>
         <body>
@@ -45,9 +54,11 @@
 
                 <h2>Flexible Example</h2>
                 <div id ="flexy" class = "flex_container">
-                    <div>One</div>
-                    <div>Two</div>
-                    <div>Three</div>
+                    <div id="one">One</div>
+                    <div id="two">Two</div>
+                    <div id="three">Three</div>
+                    <div id="four">Four</div>
+                    <div id="five">Five</div>
             </div>  
             <video 
             height="720px"
