@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .flex_container {
+                display: flex;
+            }
+            #flexy {
+                background-color: rgb(200, 231, 22);
+                padding: 20px;
+            }
+
+            #flexy > div {
+                background-color:rgb(5, 235, 101);
+                padding: 15px;
+                margin: 25px;
+                color: white;
+                font-size: 36px;
+            }
+
+            #one {
+                order:3;
+                flex-grow: 4;
+                /* align-self: center;
+                justify-self: center; */
+            }
+
+            #two {
+                order: 1;
+                flex-shrink: 0;
+                flex-grow:2;
+            }
+
+            #five {
+                order: 2;
+            }
+
+            #four {
+                order: 4;
+            }
+        </style>
+
+        </head>
+    <body>
+       
+        <div id="navigation">
+            <nav>
+                <a href="../index.html"> Test</a>
+                <a href="./test 2.html"> Display Example</a>
+                <a href="#">Flex Example</a>
+            </nav>
+        </div>
+<hr />
+           <b>  <h1>Test me - Navigate and Flex Display</h1> </b> 
+        
+           <h2> Flexible Example</h2>
+
+           <div id="flexy" class= "flex_container"> 
+    
+            <div id="one">One</div>
+            <div id="two">Two</div>
+            <div id="three">Three</div>
+            <div id="four">Four</div>
+            <div id="five">Five</div>
+            </div>
+                
+            </body>
+</html>

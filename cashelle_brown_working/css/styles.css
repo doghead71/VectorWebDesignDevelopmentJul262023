@@ -1,0 +1,33 @@
+body {
+    color: rgb(12, 12, 12);
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(253, 251, 250);
+}
+
+div p { color: black;}
+#about_me p { color: rgb(15, 15, 15);}
+
+.par-pink {
+    color: rgb(204, 108, 17)
+}
+#pinkpar {color: rgb(165, 28, 108)!important}
+
+
+#about_me_ p{
+    color:brown;
+    margin-top: 40px;
+}
+   #image_container{ 
+     float: left;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+/* img {
+    float: right;
+} */
+
+h2 {
+    clear:both;
+}
