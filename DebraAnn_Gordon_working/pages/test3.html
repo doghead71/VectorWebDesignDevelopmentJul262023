@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            .flex_container {
+                display: flex;
+            }
+            #flexy {
+                background-color: #ec125b;
+                padding: 20px;
+            }
 
+            #flexy > div {
+                font-size: large;
+                background-color: #e7c940;
+                padding: 10px;
+                margin: 5px;
+                color: #4e05f8;
+            }
+        </style>
     </head>
     <body>
         <div id="navigation">
@@ -13,10 +29,17 @@
         </div>
         <video 
         height="250" 
-        width="200" controls>
+        width="400" controls>
         <source src="../video/Juju.mp4" type="video/mp4">
         video format not supoorted
         </video>
-        <h1>TEST ME - NAVIGATE</h1>
+        <h1>TEST ME - NAVIGATE AND FLEX DISPLAY </h1>
+
+        <h2> Flexible Example</h2>
+        <div id="flexy">
+            <div>One</div>
+            <div>Two</div>
+            <div>Three</div>
+        </div>
     </body>
 </html>
