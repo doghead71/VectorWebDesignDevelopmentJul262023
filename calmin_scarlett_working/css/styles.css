@@ -1,0 +1,36 @@
+body {
+    color: #00ff00;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: grey;
+  }
+
+  div p { color: black;}
+  
+  #about_me p { 
+    color: blue;
+    margin-bottom: 40px;  
+  }
+
+  .par-pink {
+    color: #fe4cff;
+  }
+
+  #pinkpar {color: #fe4cff}
+
+  #img_container {
+    float: left;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  /* img {
+    float: left;
+  } */
+
+  h2 {
+    clear: both;
+    position: relative;
+    left: 100px;
+    top: 200px;
+  }

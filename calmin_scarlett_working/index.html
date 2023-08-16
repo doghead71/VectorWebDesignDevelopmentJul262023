@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <title>Calmin Scarlett Test Page</title>
+    <link href="./css/styles.css" type="text/css" rel="stylesheet">
     <style>
-      body {
+      /* body {
         color: #00ff00;
         font-size: x-large;
         font-weight: bold;
@@ -17,13 +18,17 @@
       .par-pink {
         color: #fe4cff;
       }
+
+      #pinkpar {color: #fe4cff!important} */
+
     </style>
   </head>
   <body>
     <div id="navigation">
       <nav>
         <a href="#"> Test </a>
-        <a href="./pages/test2.html">Test 2</a>
+        <a href="./pages/test2.html">Display Example</a>
+        <a href="./pages/test3.html">Flex Example</a>
       </nav>
     </div>
     <h1>About Me</h1>
@@ -32,7 +37,8 @@
         width = "100px"
         /> -->
     <div id="img_container">
-      <img src="./img/test.jpg" height="100px" />
+      <img src="./img/test.jpg" height="400px" />
+      <p> This is  a photo of someone who is not me</p>
     </div>
 
     <div id = "about_me">
@@ -40,7 +46,7 @@
       <p style="color: #ff0000; font-size: larger">
         My name is Calmin Scarlett.
       </p>
-      <p>
+      <p id="pinkpar">
         I am an experienced Software Engineer.
         <!-- <br/><br/><br/>  -->
         I have worked on many enterprise level projects and have completed on
@@ -48,7 +54,7 @@
       </p>
     </div>
     <div>
-      <p> See Achievements below....</p>
+      <p class="par-pink"> See Achievements below....</p>
     </div>
   
     <h2>Achievements</h2>
