@@ -4,8 +4,8 @@ body{
     background-color: beige;
     color: green;
 }
-div p {color: blueviolet;} 
-#about_me p {color: black;}
+div p {color: black;} 
+#About_Me h1 {color:#5389c7;}
 
 #img_container {
     float:left;
@@ -20,6 +20,21 @@ div p {color: blueviolet;}
 h2 {
     clear: both;
 }
-#See_Achievements Below {
+#See_Achievements { 
+    color:#710a29;
     clear:both;
+    margin-top:4cm;
 }
+#navigation
+{ text-align: center;
+    font-size: medium;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: width 2px;
+    border-style:inherit;
+    background-color:rgb(168, 232, 162);
+}
+    
+    #navigation a:visited {color:orangered;}
+    
