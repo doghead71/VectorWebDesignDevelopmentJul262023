@@ -37,4 +37,6 @@ h2 {
 }
     
     #navigation a:visited {color:orangered;}
+
+    #navigation a:link {color:rgb(160, 17, 160);}
     
