@@ -77,6 +77,12 @@ nav{
         justify-content: center;
         align-items: center;
     }
-}
+
+    .logo{
+        display: inline-block;
+        width: 200;
+        height: 200;
+    }
     
 }
+    
