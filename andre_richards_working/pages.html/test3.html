@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <style>
+        .flex_container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        #flexy {
+            background-color:aqua;
+            padding:20px;
+    
+        }
+        #flexy > div{
+            background-color: blue;
+            padding: 15px;
+            margin:25px;
+            color:brown;
+            font-size:36px;
+        }
+        #one {
+            order:3;
+
+        }
+        #two{
+            order:2;
+    
+        }
+    </style>
+    <title></title>
 
 </head>
 <div>
  <nav>
     <a>this is test3</a>
-    <a href="../index.html">test</a>
-    <a href="./test2.html">test2</a> 
-    <a href="./test3.html">test3</a>
+    <a href="../index.html">Home</a>
+    <a href="./test2.html">display example</a> 
+    <a href="#">flex example</a>
  </nav>
+</div>
+<h1> Test me- navigate and flex display </h1>
+
+<h2> Flexible Example</h2>
+<div id="flexy" class="flex container"> 
+    <div>One</div>
+    <div>Two</div>
+    <div>Three</div>
 </div>
 </nav>
 <body>
