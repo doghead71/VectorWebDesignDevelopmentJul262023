@@ -98,3 +98,12 @@ h2 {
 #navigation {
     margin-bottom: 15px;
 }
+
+/* allow navigation bars on small browsers to display as centered logo on top, followed by centered navigation links */
+@media(max-width: 650px) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
