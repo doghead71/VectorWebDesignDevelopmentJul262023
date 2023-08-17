@@ -87,6 +87,7 @@ nav {
     width: 100;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .logo {
@@ -96,8 +97,8 @@ nav {
 }
 
 .logo img {
-    width: 100;
-    height: 100;
+    width: 100%;
+    height: 100%;
 }
 
 .nav_links {
@@ -112,4 +113,17 @@ nav {
 
 #navigation {
     margin-bottom: 15px;
+}
+/*allows navigation bar on small browsers to display as centered logo on top, followed by centered navigation links*/
+@media(max-width: 650px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
 }
