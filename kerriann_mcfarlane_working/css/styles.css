@@ -76,5 +76,25 @@ h2 {
 
 .logo {
     display: inline-block;
+    width: 125px;
+    height: 125px;
 }
 
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav_links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav_links a {
+    padding: 20px 15px;
+    display: inline-block;
+}
+
+#navigation {
+    margin-bottom: 15px;
+}
