@@ -101,6 +101,7 @@ h2 {
 
 #navigation {
     margin-bottom: 15px;
+    text-align: center;
 }
 
 /* allow navigation bars on small browsers to display as centered logo on top, followed by centered navigation links */
