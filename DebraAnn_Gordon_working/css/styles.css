@@ -20,11 +20,13 @@ h2{
     color: #009;
     margin-left: 30px;
     clear: both;
+    text-decoration: underline;
 }
 
 h3{
     color: #009;
     margin-left: 30px;
+    text-decoration: underline;
 }
 
 p {
