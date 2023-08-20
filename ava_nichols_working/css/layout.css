@@ -1,0 +1,80 @@
+body{
+    font-size:medium;
+    font-style: normal;
+    background-color: beige;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+#img_container {
+    float:left;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+/* img {
+    float: left;
+} */
+
+h2 {
+    clear: both;
+}
+#See_Achievements { 
+    color:#710a29;
+    clear:both;
+    margin-top:4cm;
+}
+#navigation
+{ text-align: center;
+    font-size: medium;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: width 2px;
+    border-style:inherit;
+    background-color:rgb(168, 232, 162);
+}
+    
+    #navigation a:visited {color:orangered;}
+
+    #navigation a:link {color:rgb(160, 17, 160);}
+    
+nav {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+    width:125px;
+    height:125px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav_links {
+    display:flex;
+    list-style-type: none;
+}
+
+.nav_links a {
+    padding:20px 15px;
+    display: inline-block;
+}
+
+#navigation {
+    margin-bottom: 15px;
+}
+/*allow navigation bar on small browsers to display as centered logo on top, followed by centered navigation links*/
+@media(max-width: 650px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
