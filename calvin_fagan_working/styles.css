@@ -65,13 +65,16 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: #c5dd9e;
+    color: #04a34c;
     font-size: 24px;
 }
 .nav a:hover {
     text-decoration: underline;
 }
 
+.nav a:visited {
+    color: #04a34c; /* Maintain the same color for visited links */
+}
 .img {
     float: left;
     text-align: center;
@@ -117,11 +120,11 @@ body {
 
     .nav {
         display: flex; /* Use flexbox to create a horizontal layout */
-        background: #5053f87c;
-        color: #c5dd9e;
         text-decoration: none;
         align-items: center; /* Vertically center the content within the container */
-        text-align: center;
+        text-align: center; /* Center the content horizontally */
+        
+        justify-content: center;
     }
     
     .nav ul {
@@ -137,7 +140,6 @@ body {
     
     .nav a {
         text-decoration: none;
-        color: #c5dd9e;
         font-size: 16px; /* Adjust font size as needed */
     }
     
