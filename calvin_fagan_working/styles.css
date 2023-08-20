@@ -61,12 +61,17 @@ body {
     
     text-decoration: none;
     padding: 0;
-  }
+}
 
-  .nav a:hover {
+.nav a {
+    text-decoration: none;
+    color: #c5dd9e;
+    font-size: 24px;
+}
+.nav a:hover {
     text-decoration: underline;
-  }
-  
+}
+
 .img {
     float: left;
     text-align: center;
