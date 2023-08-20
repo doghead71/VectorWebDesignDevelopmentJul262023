@@ -1,4 +1,5 @@
 body{
+ body {
         color:brown;
         font-size:x-large;
         font-weight: bold;
@@ -9,7 +10,7 @@ body{
     div p {color: black;}
 
     #about_me p {color: blue;}
+    
     .par-pink {color:aquamarine;}
-
     #acquamarine {color:aquamarine!important}
-
+}
