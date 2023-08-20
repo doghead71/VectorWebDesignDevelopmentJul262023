@@ -33,7 +33,7 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: width 2px;
     border-style:inherit;
-    background-color:rgb(168, 232, 162);
+    background-color:beige;
 }
     
     #navigation a:visited {color:orangered;}
@@ -42,23 +42,23 @@ h2 {
     
 nav {
     width:100%;
-    display: flex;
-    justify-content: space-between;
+    display:-webkit-inline-flex;
+    justify-content:space-between;
 }
 
 .logo {
-    display: inline-block;
-    width:125px;
-    height:125px;
+    display:inline;
+    width: 150px;
+    height:150px;
 }
 
 .logo img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
 
 .nav_links {
-    display:flex;
+    display:-webkit-flex;
     list-style-type: none;
 }
 
@@ -70,11 +70,11 @@ nav {
 #navigation {
     margin-bottom: 15px;
 }
-/*allow navigation bar on small browsers to display as centered logo on top, followed by centered navigation links*/
-@media(max-width: 650px) {
+/*allow navigation bar on small browsers to display logo on left, followed by navigation links below logo*/
+@media(max-width: 300px) {
     nav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-direction:column;
+        justify-content:space-around;
+        align-items:center;
     }
 }
