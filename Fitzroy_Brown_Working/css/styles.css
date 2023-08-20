@@ -32,6 +32,7 @@ div p {
     clear: left;/*Clear the float after the first letter*/
 }
 
+
 #navigation {
     text-align: center;
     font-size: large;
@@ -66,26 +67,26 @@ div p {
 }
 
 #image_container {
-    float: left;
+    float: center;
     margin-left: 35px;
-    margin-right: 35px;
+    margin-right: 35px;.
 }
 
 #img_container {
-    float: left;
+    float: center;
     margin-left: 35px;
     margin-right: 35px;
 }
 
 h2 {
     clear: both;
-    position: relative;
+    position: static;
     left: 100px;
     top: 200px;
 }
 
 #see_achievements {
-    clear: both;
+   clear: both;
 }
 
 nav {
@@ -130,6 +131,25 @@ nav {
     .logo {
         width: 200px;
         height: 200px;
+    }
+}
+
+/*Create 3 equal colums that float next to each other*/
+.column {
+    float:left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
     }
 }
 
