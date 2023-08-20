@@ -78,31 +78,26 @@ h2 {
     display: inline-block;
     width: 125px;
     height: 125px;
-    text-align: center;
 }
 
 .logo img {
     width: 100%;
     height: 100%;
-    text-align: center;
 }
 
 .nav_links {
     display: flex;
     list-style-type: none;
-    text-align: center;
 }
 
 .nav_links a {
     padding: 20px 15px;
     display: inline-block;
-    text-align: center;
 }
 
 #navigation {
     margin-bottom: 15px;
-    text-align: center;
-}
+    }
 
 /* allow navigation bars on small browsers to display as centered logo on top, followed by centered navigation links */
 @media(max-width: 650px) {
