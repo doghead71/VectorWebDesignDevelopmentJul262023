@@ -2,37 +2,74 @@
 <html lang="EN">
     
     <head>
-        <title>Test 3</title>
+        <title>Kevin Darby Test Page</title>
         <link rel="icon" type="image/x-icon" href="../favicon.ico">
         <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
-        <div id="wrapper">
-            <div class="inner-wrapper">
-                <div id="navigation">
-                    <nav>
-                        <a href="../index.html">Test</a>
-                        <a href="./test2.html">Test 2</a>
-                        <a id="active_tab" href="#">Test 3</a>
-                    </nav>
+        <div id="page_wrapper">
+            <header>
+                <div>
+                    <img alt="Logo" id="logo_img" src="../img/logo.png">
+                    <div>
+                        <h1><span>K</span>evin <span>D</span>arby</h1>
+                        <h3>Certified Web Designer</h3>
+                    </div>
+                    
                 </div>
-                <h1>TEST 3 - NAVIGATE</h1>
-                <div id="video_container">
-                    <h2>Sample Video</h2>
-                    <video width="320" height="220" controls>
-                        <source src="../video/football_video.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                <div class="navigation">
+                    <input type="checkbox" class="toggle-menu">
+                    <div class="hamburger"></div>
+                    <ul class="menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./test2.html">Portfolio</a></li>
+                        <li><a class="active-link" href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
-                <div id="audio_container">
-                    <h2>Sample Audio</h2>
-                    <audio controls>
-                        <source src="../audio/sample_audio.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
+            </header>
+            <div id="content_wrapper">
+                <div class="main-content">
+                    
+                </div>
+                <div id="col2" class="sidebar">
+                    <h2>Recent Projects</h2>
+                    <div class="recent-projects">
+                        <div>
+                            <a href="#"><img alt="Recent proctect 1" src="../img/Blue_Arc.png"></a>
+                            <a href="#">Blue Arc</a>
+                        </div>
+                        <div>
+                            <a href="#"><img alt="Recent proctect 2" src="../img/Design_Blog.png"></a>
+                            <a href="#">Design Blog</a>
+                        </div>
+                        <div>
+                            <a href="#"><img alt="Recent proctect 3" src="../img/Design_Garden.png"></a>
+                            <a href="#">Design Garden</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <footer>
+                <div id="footer_wrapper">
+                    <div>
+                        <h4>Stay Connected</h4>
+                        <a href="#" title="Linked In"><img src="../img/linked_in.png" alt="Linked In"></a>
+                        <a href="#" title="Facebook"><img src="../img/facebook.png" alt="Facebook"></a>
+                        <a href="#" title="Follow on Twitter"><img src="../img/twitter.png" alt="Twitter"></a>
+                    </div>
+                    <div>
+                        <span class="ft-copy">Created by: Kevin Darby.</span> <br>
+                        <span class="ft-copy">Copyright &copy; 2023. All Rights Reserved.</span>
+                        <br>
+                        <img src="../img/W3C_HTML5_certified.png" alt="W3C HTML5 Certified">
+                        <img src="../img/Valid_CSS.svg.png" alt="W3C CSS Certified">
+                    </div>
+                </div>
+            </footer>
         </div>
     </body>
+
 </html>
