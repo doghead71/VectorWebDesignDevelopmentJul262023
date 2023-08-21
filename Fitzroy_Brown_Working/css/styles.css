@@ -1,11 +1,11 @@
 body {
     color: #000000;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
     background-color: #cbc8c8;
     font-family: "Times New Roman";
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 div p {
@@ -14,7 +14,7 @@ div p {
 
 #about_me p {
     color: #820368c1;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .par-brown {
@@ -38,18 +38,17 @@ div p {
     font-size: large;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 40px;
 }
 
 #nav a:link {
     text-decoration: none;
     color: #2507be;
-    width: 200px;
+    width: 135px;
     float: inline-end;
     background-color: #ffe4c4;
-    margin-left: 30px;
-    padding: 10px;
-    border: 5px outset #bb04bb;
+    margin-left: 20px;
+    padding: 0px;
+    border: 2px outset #bb04bb;
 }
 
 #nav a:visited {
@@ -76,6 +75,7 @@ div p {
     float: center;
     margin-left: 35px;
     margin-right: 35px;
+    margin-bottom: 25px;
 }
 
 h2 {
@@ -120,6 +120,7 @@ nav {
 #navigation {
     margin-bottom: 15px;
 }
+
 /*allows navigation bar on small browsers to display as centered logo on top, followed by centered navigation links*/
 @media(max-width: 650px) {
     nav {
@@ -134,22 +135,33 @@ nav {
     }
 }
 
-/*Create 3 equal colums that float next to each other*/
-.column {
-    float:left;
-    width: 33.33%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-@media screen and (max-width: 600px) {
+    /* Create three equal columns that floats next to each other */
     .column {
-      width: 100%;
+        float: left;
+        width:33.33%;
+        padding: 5px;
     }
-}
+    
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width:600px) {
+        .column {
+            width: 100%;
+        }
+    }
+        
+    footer {
+        background-color: #189dc6;
+        text-align: center;
+        padding: 10px;
+    }
+
+
+
 
