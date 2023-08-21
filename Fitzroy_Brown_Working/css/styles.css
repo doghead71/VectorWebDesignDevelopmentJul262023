@@ -138,9 +138,10 @@ nav {
     /* Create three equal columns that floats next to each other */
     .column {
         float: left;
-        width:33.33%;
-        border: 2px outset brown;
-        padding: 2px;
+        width:25%;
+        border: 0px outset brown;
+        padding: 5px;
+        margin-left: 20px;
     }
     
     /* Clear floats after the columns */
