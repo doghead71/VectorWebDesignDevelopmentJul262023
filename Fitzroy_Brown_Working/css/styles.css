@@ -83,6 +83,8 @@ h2 {
     position: static;
     left: 100px;
     top: 200px;
+    color: #2507be;
+    align-items: center;
 }
 
 #see_achievements {
@@ -140,10 +142,10 @@ nav {
     .column {
         float: left;
         width:25%;
-        border: 0px outset brown;
+        border: 2px outset brown;
         padding: 5px;
         margin-left: 80px;
-        background-color: #a49b6e;
+        background-color: #ada681;
     }
     
     /* Clear floats after the columns */
