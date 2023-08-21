@@ -1,7 +1,50 @@
 body{
     text-align: center;
+    background-image: url('../img2/light-web.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.bodychris{
+    text-align: center;
     background-image: url('../img2/chrisb.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    */
+       /* .light-web{
+            width: 100%;
+            height: 100vh;
+            background-image: url('../img2/light-web.jpg');
+            position: relative;
+            padding: 0 5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        */
+    .alyboo{
+        color: brown;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .navigation{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    h1, h2, h3{
+        color: rgb(102, 17, 58);
+        font-size: 30px;
+    }
