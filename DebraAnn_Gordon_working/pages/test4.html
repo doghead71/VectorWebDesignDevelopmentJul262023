@@ -2,28 +2,107 @@
 <html>
     <head>
         <style>
-            .flex_container {
-                display: flex;
-                /*flex-direction: row;
-                flex-wrap: wrap;*/
-                flex-flow: row wrap;
-                justify-content: space-between;
-                height: 150px;
-                /*width: 400;*/
-                align-items: center;
-            }
-            #flexy {
-                background-color: #ec125b;
-                padding: 20px;
-            }
+           .container {
+            display: flex;
+           }
 
-            #flexy > div {
-                font-size: large;
-                background-color: #e7c940;
-                padding: 10px;
-                margin: 5px;
-                color: #4e05f8;
-            }
+           .container2 {
+            display: flex;
+           }
+
+           .container div {
+            padding: 200px;
+            flex: 2;
+           }
+
+           .container2 div {
+            /*padding: 20px;*/
+            flex: 2;
+           }
+
+           .One {
+            flex-direction: column;
+            display: flex;
+            background-color: #4e05f8;
+            width: 300%;
+            
+           }
+
+           .Two {
+            flex-direction: column;
+            display: flex;
+            background-color: #ec125b;
+            width: 300%;
+           }
+
+           .Three {
+            flex-direction: column;
+            display: flex;
+            background-color: #8dec12;
+            width: 300%;
+           }
+
+           .First {
+            flex-direction: column;
+            display: flex;
+            background-color: #523ec4;
+           }
+
+           .Second {
+            flex-direction: column;
+            display: flex;
+            background-color: #c76fbb;
+            width: 300%;
+           }
+
+           .Red {
+            /*flex-direction: column;*/
+            display: flex;
+            background-color: #36007c;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            width: 20%;
+            align-items: center;
+            
+           }
+
+           .Green {
+            flex-flow: row wrap;
+            display: flex;
+            background-color: #ff21bd;
+            justify-content: space-between;
+            width: 20%;
+            align-items: center;
+            
+           }
+
+           .Blue {
+            display: flex;
+            background-color: #53f06d;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            width: 20%;
+            align-items: center;
+           }
+
+           .Yellow {
+            flex-flow: column wrap;
+            display: flex;
+            background-color: #a72f0b;
+            justify-content: space-between;
+            width: 20%;
+            align-items: center;
+           }
+
+           .Purple {
+            display: flex;
+            background-color: #094f6480;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            width: 20%;
+            align-items: center;
+           }
+
         </style>
     </head>
     <body> 
@@ -34,6 +113,22 @@
                 <a href="./test3.html"> Flex Example </a>
                 <a href="#"> Layout Page </a>
             </nav> 
+        </div>
+        <div class="container">
+            <div class="One"> 1</div>
+            <div class="Two"> 2</div>
+            <div class="Three"> 3</div>
+        </div>
+        <div class="container2">
+            <div class="First"> 1st
+                <div class="Red"> Red</div>
+                <div class="Green"> Green</div>
+                <div class="Blue"> blue</div>
+            </div>
+            <div class="Second"> 2nd
+                <div class="Yellow"> Yellow</div>
+                <div class="Purple"> Purple</div>
+            </div>
         </div>
     </body>
 </html>
