@@ -84,7 +84,8 @@ h2 {
     left: 100px;
     top: 200px;
     color: #2507be;
-    align-items: center;
+    text-align: center;
+    
 }
 
 #see_achievements {
