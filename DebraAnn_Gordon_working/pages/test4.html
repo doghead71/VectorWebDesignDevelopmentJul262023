@@ -11,13 +11,11 @@
            }
 
            .container div {
-            padding: 200px;
-            flex: 2;
+            padding: 100px;
            }
 
            .container2 div {
-            /*padding: 20px;*/
-            flex: 2;
+            padding: 20px;
            }
 
            .One {
@@ -25,7 +23,6 @@
             display: flex;
             background-color: #4e05f8;
             width: 300%;
-            
            }
 
            .Two {
@@ -43,66 +40,79 @@
            }
 
            .First {
-            flex-direction: column;
+            flex-direction: row;
             display: flex;
             background-color: #523ec4;
+            width: 620%;
            }
 
            .Second {
-            flex-direction: column;
+            flex-direction: row;
             display: flex;
             background-color: #c76fbb;
             width: 300%;
            }
 
            .Red {
-            /*flex-direction: column;*/
             display: flex;
-            background-color: #36007c;
-            flex-flow: row wrap;
-            justify-content: space-between;
+            background-color: #4e05f8;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-inline: 10%;
             width: 20%;
-            align-items: center;
-            
+            margin: 5px;
+            height: 100px;
            }
 
            .Green {
-            flex-flow: row wrap;
             display: flex;
             background-color: #ff21bd;
-            justify-content: space-between;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-inline: 10%;
             width: 20%;
-            align-items: center;
-            
+            margin: 5px;
+            height: 100px;
            }
 
            .Blue {
             display: flex;
             background-color: #53f06d;
-            flex-flow: row wrap;
-            justify-content: space-between;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-inline: 10%;
             width: 20%;
-            align-items: center;
+            margin: 5px;
+            height: 100px;
            }
 
            .Yellow {
-            flex-flow: column wrap;
             display: flex;
             background-color: #a72f0b;
-            justify-content: space-between;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-inline: 10%;
             width: 20%;
-            align-items: center;
+            margin: 5px;
            }
 
            .Purple {
             display: flex;
             background-color: #094f6480;
-            flex-flow: column wrap;
-            justify-content: space-between;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-inline: 10%;
             width: 20%;
-            align-items: center;
+            margin: 5px;
            }
 
+           @media(max-width:768px) {
+            nav {
+                flex-direction: column;
+                justify-content: right;
+                align-items: right;
+            }
+           }
         </style>
     </head>
     <body> 
