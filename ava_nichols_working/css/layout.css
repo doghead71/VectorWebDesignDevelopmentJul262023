@@ -2,11 +2,11 @@ body{
     font-size: larger;
     font-style: normal;
     background-color: beige;
-    color: green;
+    color: black;
     margin:0;
     padding:0;
 }
-div p {color: black;} 
+ 
 #About_Me h1 {color:#5389c7;}
 
 #img_container {
@@ -19,13 +19,16 @@ div p {color: black;}
     float: left;
 } */
 
-h2 {
+h2,p {
     clear: both;
 }
+
+
+h3 {margin-top: 1cm;}
 #See_Achievements { 
     color:#710a29;
     clear:both;
-    margin-top:4cm;
+    margin-top:1cm;
 }
 #navigation
 { text-align: center;
@@ -35,7 +38,7 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: width 2px;
     border-style:inherit;
-    background-color:rgb(168, 232, 162);
+    background-color:beige;
 }
     
     #navigation a:visited {color:orangered;}
@@ -72,11 +75,20 @@ nav {
 #navigation {
     margin-bottom: 15px;
 }
+
+#flex {
+    display:flex;
+    flex-direction: row;
+}
+
 /*allow navigation bar on small browsers to display as centered logo on top, followed by centered navigation links*/
-@media(max-width: 650px) {
+@media(max-width: 350px) {
     nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    #flex { 
+        flex-direction: column;
     }
 }
