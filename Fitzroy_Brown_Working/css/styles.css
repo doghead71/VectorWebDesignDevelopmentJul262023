@@ -5,7 +5,8 @@ body {
     background-color: #cbc8c8;
     font-family: "Times New Roman";
     margin: 0;
-    padding: 0px;
+    padding: 20px;
+    border: 10px outset rgb(0, 17, 255);
 }
 
 div p {
@@ -103,12 +104,12 @@ nav {
     display: inline-block;
     width: 150px;
     height: 150px;
-    margin-left: 80px;
 }
 
 .logo img {
     width: 100%;
     height: 100%;
+    margin-left: 40px;
 }
 
 .nav_links {
@@ -145,7 +146,7 @@ nav {
         width:25%;
         border: 2px outset brown;
         padding: 5px;
-        margin-left: 80px;
+        margin-left: 35px;
         background-color: #ada681;
     }
     
