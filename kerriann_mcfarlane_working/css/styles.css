@@ -9,71 +9,95 @@ body {
     padding: 0;
 }
 
-div p {color: black;}
+.main_container {
+    width: 860px;
+    min-height: 500px;
+    border: 1px;
+    margin: auto;
+    margin-top: 50px;
+    background: grey;
+    padding: none;
+}
 
-p{
+
+div p {
+    color: black;
+}
+
+p {
     font-weight: lighter;
 }
 
-#about_me p {color: blue;}
+#about_me p {
+    color: blue;
+}
 
 .par-pink {
     color: #fe4cff;
 }
 
-#pinkpar {color: #fe4cff!important;}
+#pinkpar {
+    color: #fe4cff !important;
+}
+
 #img_container {
     float: left;
     margin-left: 35px;
     margin-right: 35px;
 }
-h1,h2,h3{
+
+h1,
+h2,
+h3 {
     text-align: center;
     text-decoration: underline;
 }
+
 h2 {
-    clear:both;
+    clear: both;
 }
-#navigation{
+
+#navigation {
     border-style: solid;
     border-width: 1px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:cornsilk;
+    background-color: cornsilk;
     font-size: large;
     font-weight: bold;
 }
 
-#firstp ::first-letter{
-    float:left;
+#firstp ::first-letter {
+    float: left;
     font-size: 30px;
     line-height: 0.52;
-    clear: left; /* clear the float after the first letter */
+    clear: left;
+    /* clear the float after the first letter */
 }
 
 
-#nav a:active{
-    color: #ff0000; 
-    text-decoration: none; 
+#nav a:active {
+    color: #ff0000;
+    text-decoration: none;
 }
 
-#nav a:hover{
-    font-size:28px; 
+#nav a:hover {
+    font-size: 28px;
     color: #fe4cff;
-    text-decoration: underline;  
+    text-decoration: underline;
 }
 
-#nav a:visited{
-    color: #226592; 
-    text-decoration: none;  
+#nav a:visited {
+    color: #226592;
+    text-decoration: none;
 }
 
- nav {
+nav {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
- }   
+}
 
 .logo {
     display: inline-block;
@@ -98,11 +122,25 @@ h2 {
 
 #navigation {
     margin-bottom: 15px;
-    }
+}
+
+.main_container_inner_left {
+    width: 430px;
+    float: left;
+    justify-content: space-between;
+  
+}
+
+.main_container_inner_right {
+    width: 430px;
+    float: right;
+    justify-content: space-between;
+    
+}
 
 /* allow navigation bars on small browsers to display as centered logo on top, followed by centered navigation links */
 @media(max-width: 650px) {
-    nav{
+    nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
