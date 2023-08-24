@@ -11,6 +11,24 @@
             padding: 0;
         }
 
+        .flex_container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /*flex-flow: row wrap;*/
+            justify-content: space-between;
+            height: 350px;
+            align-items: center;
+        }
+
+        .flexy > div {
+        background-color: #ff00cc;
+        padding: 15px;
+        margin: 25px;
+        color: white;
+        font-size: 36px;
+        }
+
         .container {
             display: grid;
             width: 100vw;
@@ -30,7 +48,7 @@
             border: solid #000000;
         }
 
-        .navigation {
+        .nav {
             display: flex
         }
 
@@ -39,9 +57,8 @@
             display: flex;
             width: 30%;
             height: 50%;
+            border: 3px solid #000000;
             margin: 10px;
-            border: 3px solid #000000 ;
-
         }
 
         .Content2 {
@@ -49,8 +66,9 @@
             display: flex;
             width: 30%;
             height: 50%;
+            border: 3px solid #000000;
             margin: 10px;
-            border: 3px solid #000000 ;
+
 
         }
 
@@ -59,8 +77,8 @@
             display: flex;
             width: 30%;
             height: 50%;
+            border: 3px solid #000000;
             margin: 10px;
-            border: 3px solid #000000 ;
 
         }
 
@@ -69,6 +87,15 @@
             display: flex;
             width: 30%;
             height: 50%;
+        }
+
+        /* allow navigation bars on small browsers to display as centered logo on top, followed by centered navigation links */
+        @media(max-width: 650px) {
+            nav {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
         }
     </style>
 </head>
@@ -83,13 +110,32 @@
             <a href="./test3.html">Flex example</a>
             <a href="./test4.html">test4</a>
         </nav>
-        <div class="container"> 
-            <div class="Nav"> Navigation Bar</div>
-            <div class="Content 1"> Content 1</div>
-            <div class="Content 2"> Content 2</div>
-            <div class="Content 3"> Content 3</div>
-            <div class="Footer"> Footer</div>
-        </div>
+
+        <h1>
+            <Nav></Nav>
+        </h1>
+        <h2>
+            <Content1></Content1>
+        </h2>
+        <h3>
+            <Content2></Content2>
+        </h3>
+        <h4>
+            <Content3></Content3>
+        </h4>
+        <h5>
+            <Footer></Footer>
+            </h5>
+
+            <div class="container">
+                <div class="Nav"> Navigation Bar</div>
+                <div class="Content 1"> Content 1</div>
+                <div class="Content 2"> Content 2</div>
+                <div class="Content 3"> Content 3</div>
+                <div class="Footer"> Footer</div>
+            </div>
+
+
 
 </body>
 
