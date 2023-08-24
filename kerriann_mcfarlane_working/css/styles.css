@@ -57,6 +57,7 @@ h2 {
     clear: both;
 }
 
+
 #navigation {
     border-style: solid;
     border-width: 1px;
@@ -128,7 +129,7 @@ nav {
     width: 430px;
     float: left;
     justify-content: space-between;
-  
+    
 }
 
 .main_container_inner_right {
@@ -137,6 +138,17 @@ nav {
     justify-content: space-between;
     
 }
+
+.container div {
+    padding: 10px ;
+    border: 1px solid #000000;
+}
+
+body {
+    margin: 0;
+}
+
+
 
 /* allow navigation bars on small browsers to display as centered logo on top, followed by centered navigation links */
 @media(max-width: 650px) {
