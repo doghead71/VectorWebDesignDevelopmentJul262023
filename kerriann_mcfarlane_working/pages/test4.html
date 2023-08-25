@@ -5,10 +5,54 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/styles.css" type="text/css" rel="stylesheet">
+    <title>Flexbox 0 - starrting <code></code></title>
     <style>
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
         body {
             margin: 0;
             padding: 0;
+        }
+
+        header {
+            background-color: blue;
+            height: 100px;
+            padding-top: 2px;
+            border-style: dashed;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            line-height: 100px;
+            margin: 0px;
+        }
+
+        Content {
+            padding: 1px;
+            margin: 0px;
+            background: aqua;
+            flex: 500px;
+            border-style: dashed;
+        }
+
+        section {
+            display: flex;
+            height: 300px;
+            color: black;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer {
+            background-color: olivedrab;
+            height: 300px;
+            padding-top: 2px;
+            color: black;
+            border-style: dashed;
+            margin: 0px;
         }
 
         .flex_container {
@@ -17,77 +61,52 @@
             flex-wrap: wrap;
             /*flex-flow: row wrap;*/
             justify-content: space-between;
-            height: 350px;
+            height: 200px;
             align-items: center;
         }
 
-        .flexy > div {
-        background-color: #ff00cc;
-        padding: 15px;
-        margin: 25px;
-        color: white;
-        font-size: 36px;
+        
+
+        #Footer>div {
+            background-color: #ff00cc;
+            padding: 15px;
+            margin: 1px;
+            color: black;
+            font-size: 36px;
         }
 
-        .container {
-            display: grid;
-            width: 100vw;
-            height: 75vh;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: bold;
-            font-size: 20px;
-            /*grid-template-columns: repeat(3 3fr);*/
-            /*grid-template-rows: 50px 1fr 1fr 100px;*/
-            padding: 10px;
-            box-sizing: border-box;
-            flex-direction: row
-        }
+        #One {
+        flex-direction: row;
+        align-items: left;
+       
+    }
 
-        .container div {
-            padding: 10px;
-            border: solid #000000;
-        }
+    #Two { 
+        flex-direction: row;
+        align-items: left;
+        
+    }
 
-        .nav {
-            display: flex
-        }
+    #Three {
+        flex-direction: row;
+        align-items: left;
+        
+    }
 
-        .Content1 {
-            flex-direction: column;
-            display: flex;
-            width: 30%;
-            height: 50%;
-            border: 3px solid #000000;
-            margin: 10px;
-        }
+    #Four {
+        flex-direction: row;
+        justify-content: right;
+        align-items: right;
+    }
 
-        .Content2 {
-            flex-direction: column;
-            display: flex;
-            width: 30%;
-            height: 50%;
-            border: 3px solid #000000;
-            margin: 10px;
+    #Five {
+       
+        flex-direction: row;
+        justify-content: right;
+        align-items: right;
+    }
 
-
-        }
-
-        .Content3 {
-            flex-direction: column;
-            display: flex;
-            width: 30%;
-            height: 50%;
-            border: 3px solid #000000;
-            margin: 10px;
-
-        }
-
-        .footer {
-            flex-direction: column;
-            display: flex;
-            width: 30%;
-            height: 50%;
-        }
+    
 
         /* allow navigation bars on small browsers to display as centered logo on top, followed by centered navigation links */
         @media(max-width: 650px) {
@@ -111,30 +130,38 @@
             <a href="./test4.html">test4</a>
         </nav>
 
-        <h1>
-            <Nav></Nav>
-        </h1>
-        <h2>
-            <Content1></Content1>
-        </h2>
-        <h3>
-            <Content2></Content2>
-        </h3>
-        <h4>
-            <Content3></Content3>
-        </h4>
-        <h5>
-            <Footer></Footer>
-            </h5>
+        <header>
+            <h1>Navigation Bar</h1>
+        </header>
 
-            <div class="container">
-                <div class="Nav"> Navigation Bar</div>
-                <div class="Content 1"> Content 1</div>
-                <div class="Content 2"> Content 2</div>
-                <div class="Content 3"> Content 3</div>
-                <div class="Footer"> Footer</div>
+
+        <section>
+            <Content>
+                <h2>Content1</h2>
+            </Content>
+
+            <Content>
+                <h2>Content2</h2>
+            </Content>
+
+            <Content>
+                <h2>Content3</h2>
+            </Content>
+
+        </section>
+
+        <Footer>
+            <h3>Footer</h3>
+            <div id="Footer" class="flex_container">
+                <div id="One">One</div>
+                <div id="Two">Two</div>
+                <div id="Three">Three</div>
+                <div id="Four">Four</div>
+                <div id="Five">Five</div>
+
             </div>
 
+        </Footer>
 
 
 </body>
