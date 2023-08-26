@@ -8,9 +8,7 @@ body{font-style:initial;
     font-weight: bold;}
 .Dark green{color:#074507}
 
-</style>
 
-<style> h1 {color:maroon;font-size: larger;} </style>
-<style> h2 {color:maroon;font-size: larger;}</style>
-<style> h3 {color:maroon;font-size: larger;}</style>
+<style> h1;h2;h3 {color:maroon;font-size: larger;} </style>
+
 
