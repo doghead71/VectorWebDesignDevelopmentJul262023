@@ -1,7 +1,5 @@
-
-
-body {
-    color:#a52a2a}
+body{
+    color:#a52a2a }
 body{font-style:initial;
     font-size: large; 
     background-color:burlywood;
@@ -15,5 +13,6 @@ h1, h2,h3
 font-size: larger;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif} 
 </style>
-
-
+<a> Style</a>
+<a href="/laquanda_reid_working/Test 2.html"> </a>
+<a href="/laquanda_reid_working/Test 2.html"> </a>
