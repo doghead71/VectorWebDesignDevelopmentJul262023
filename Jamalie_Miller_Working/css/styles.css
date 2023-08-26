@@ -1,16 +1,13 @@
 body{
- body {
-        color:brown;
-        font-size:x-large;
-        font-weight: bold;
-        background-color: grey;
-        margin: 0;
-        padding: 0;
-    }
-    div p {color: black;}
-
-    #about_me p {color: blue;}
-    
-    .par-pink {color:aquamarine;}
-    #acquamarine {color:aquamarine!important}
+    color: #33363D;
+    font-size:x-large;
+    font-weight: bold;
+    background-color: #F0EDE5;
+    margin: 0;
+    padding: 0;
 }
+div p {color: black;}
+#about_me p {color: blue;}
+.par-pink {color: #4157A2;}
+ {color:#4157A2!important}
+
