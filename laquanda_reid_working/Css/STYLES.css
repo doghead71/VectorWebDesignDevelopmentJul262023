@@ -1,17 +1,32 @@
 
 body{
-    color:#a52a2a}
+    color:#a52a2a
+
+}
+
+
+
 body{font-style:initial;
     font-size: large; 
     background-color:burlywood;
-    font-weight: bold;}
-.Dark green{color:#074507}
+    font-weight: bold;
+padding: 20px;
+
+}
 
 
+.Dark green{color:#074507
 
+}
 
+# About Me {padding: 20px;
+
+}
 
 h1, h2,h3
     {color:maroon;
     font-size: larger;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif} 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-;
+padding:20px;
+}
+     
