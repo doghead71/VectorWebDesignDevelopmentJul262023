@@ -1,13 +1,33 @@
-.nav_links {
-    display:flex;
-    width: 85%;
-
-}
-
 .nav_links a {
-    padding:20px 15px;
-    display: inline-block;
+    display:flex;
+    justify-content: space-between;
     border: width 2px;
     border-style:inherit;
     background-color:rgb(168, 232, 162);
+    list-style-type: none;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4);
+    gap: 10px;
+    margin:auto;
+    max-width: 1000px;
+    box-shadow: 1cm;
+}
+
+.grid {
+    width: 100%;
+    display: block;
+}
+
+.content {
+    align-items:center ;
+}
+
+.content {
+    line-height:normal;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
