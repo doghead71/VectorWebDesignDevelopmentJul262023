@@ -7,12 +7,10 @@ body{
 
 
 body{font-style:initial;                         
-    line-height:1px;
     font-weight:bold;
-    position:absolute;
-    top:12pt;
     font-size: medium; 
     background-color:burlywood;
+    padding: top 60px;;
 
 
     
@@ -43,10 +41,10 @@ h1, h2,h3
 .logo{ color: #003300;
 font-size:30px;
 line-height:1px;
-padding:0 px;
+padding: 2px;
 font-weight:bold;
 position:absolute;
-top:12pt;left: 24pt;}
+top: 3px;left: 24pt;}
 
 
  
