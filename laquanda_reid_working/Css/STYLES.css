@@ -6,16 +6,15 @@ body{
 
 
 
-body{font-style:initial;                         
+body{font-style:italic;                         
     font-weight:bold;
-    font-size: medium; 
+    font-size: small; 
     background-color:burlywood;
-    padding-top: 80px;
-   
-
+    box-sizing:border-box;
+    float:left;
 
     
- }
+   }
 
 
 .Dark green{color:#074507
@@ -32,9 +31,10 @@ h1, h2,h3
 #NAVIGATION { 
    color: maroon;
     font-size: 20px;
-    float: right;
-    top: 0px; right: 20px;
+    float: right;20px
+    top: 0px
     line-height:1px;
+    
     
 }
 
@@ -45,8 +45,9 @@ font-size:30px;
 line-height:1px;
 padding: 2px;
 font-weight:bold;
-position:absolute;
-border-top-right-radius:24pt;}
+position:absolute;}
+
+#img_container{ float: left;}
 
 
  
