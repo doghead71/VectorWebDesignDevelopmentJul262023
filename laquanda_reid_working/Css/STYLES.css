@@ -6,12 +6,12 @@ body{
 
 
 
-body{font-style:initial;
+p{font-style:initial;
     font-size: large; 
     background-color:burlywood;
     font-weight: bold;
  }
-body{border-style: outset; 
+p{border-style: outset; 
     border-width: 5px;
     padding: 20px;
 border:4px rgb(5, 43, 5);
