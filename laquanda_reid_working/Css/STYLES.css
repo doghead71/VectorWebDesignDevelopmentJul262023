@@ -10,6 +10,8 @@ body{font-style:initial;
     font-size: medium; 
     background-color:burlywood;
     font-weight: bold;
+    padding:60px;
+    
  }
 
 
@@ -17,28 +19,30 @@ body{font-style:initial;
 
 }
 
-#About Me {padding-top: 20px;}
+
 
 h1, h2,h3
     {color:maroon;
     font-size:medium;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana,}
 
-#NAVIGATION { display:flexbox;
+#NAVIGATION { 
    color: maroon;
     font-size: 20px;
     float: right;
-    margin-right: 20px;}
+    margin-right: 20px;
+    padding: top 60px;z-index: index 9999;
+}
+
 
     
 .logo{ color: #003300;
 font-size:30px;
 line-height:1px;
-padding:0px;
-font-weight: bold;
-
-
-}
+padding:0 px;
+font-weight:bold;
+position:absolute;
+top:12pt;left: 24pt;}
 
 
  
