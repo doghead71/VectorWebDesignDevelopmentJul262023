@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .navigation {
+                display: flex;
+            }
+
+            #navigation {
+                margin-bottom: 20px;
+            }
+
+            .navigation a {
+                padding: 20px 15px;
+                display: inline-block;
+                vertical-align: middle;
+                list-style-type: none;
+                margin-inline: 4px;
+            }
+
+            nav {
+                padding: 20px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+            .logo {
+                width: 125px;
+                height: 125px;
+                display: inline-block;
+                border-style: groove;
+                border-width: 4px;
+                border-color: #ee3e80;
+                text-align: center;
+            }
+
+            #flex_column {
+                margin: 40px;
+                float: left;
+                align-items: center;
+                flex-flow: row wrap;
+            }
+
+            .Left {
+                display: flex;
+                border-style: dotted;
+                width: 350px;
+                height: 350px;
+                padding: 40px;
+                display: inline-block;
+                margin: 40px;
+            }
+
+            .Right {
+                display: flex;
+                border-style: double;
+                width: 350px;
+                height: 350px;
+                padding: 40px;
+                display: inline-block;
+            }
+        </style>
+        <body>
+            <div id="navigation">
+                <nav>
+                    <p class="logo"> Logo</p>
+                    <a href="../index.html"> Home </a>
+                    <a href="./test2.html"> Display Example </a>
+                    <a href="./test3.html"> Flex Example </a>
+                    <a href="./test4.html"> Layout Page </a>
+                    <a href="#"> Split Screen Layout</a>
+                </nav> 
+            </div>
+            <div id="flex_column">
+                <div class="Left"> Left</div>
+                <div class="Right"> Right </div>
+            </div>
+        </body>
+    </head>
+</html>
