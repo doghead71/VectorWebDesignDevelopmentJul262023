@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>/* the asterisks a wildcard representing all tags*/
+        *{
+        margin: 0px;
+        padding: 0;
+        border: 0; 
+        box-sizing: border-box;
+        
+    }
+
+    .navigation {
+        background-color:white;
+    }
+    
+    header {
+        background-color: aqua;
+        min-height: 150px;
+        font-size: large;
+        font: bold;
+        align-items: right;
+    }
+    /*Flex box parent sectioning 3 colums side by side. flex-flow row wrap will to a vertical orientation*/
+    main {
+        background-color: blueviolet;
+        min-height: 400px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    /*Flex children*/
+    aside:nth-child(1) {
+        flex: 0 0 500px;
+        background-color: pink;
+    }
+
+    aside:nth-child(2) {
+        flex: 0 0 500px;
+        background-color: #e4dc6a;
+    }
+
+    footer {
+        display: flex;
+        background-color: bisque;
+        min-height:  200px
+    }
+
+    footer .twothirds{
+        width:70%
+    }
+
+    footer .onethirds{
+        width:30%
+    }
+
+    footer .twothirds .box{
+        display:inline-flex;
+        background-color:white;
+        border: 2px;
+        border-color: black;
+        width:70px;
+        height: 70px;
+        padding: 0px;
+        margin-top: 35px;
+    }
+
+    footer .onethirds .box{
+        display:inline-flex;
+        background-color:white;
+        border: 2px;
+        border-color: black;
+        width:70px;
+        height: 70px;
+        padding: 0px;
+        margin-top: 35px;
+        align-items: right;
+    }
+
+    @media screen and (max-width:600px) {
+        .column {
+            width: 100%;
+        }
+    }
+    
+
+    </style>
+</head>
+
+<body>
+    <div id="navigation">
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="./test3.html">Flex Example</a>
+          <a href="#"><header>Navigation Bar</header></a>
+        </nav>
+    </div>
+    
+</body>
+    
+    <main><!--main body for 3 blocks/columns-->
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+    </main>
+
+    <footer>
+        <div class="twothirds">
+            <div class="box"></div>
+            <div class="box"> </div>
+            <div class="box"></div>
+        </div>
+
+        <div class="onethirds">
+            <div class="box"> </div>
+            <div class="box"></div>
+        </div>
+
+    </footer>
+
+</html>

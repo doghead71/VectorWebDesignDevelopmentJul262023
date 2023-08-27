@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+
+        body {
+            box-sizing: border-box;
+        }
+        .asym_flexy {
+            display: flex;
+            flex-direction: row;
+            border-color: blue;
+        }
+
+        .asym_item_bigger {
+            flex: 60%;
+        }
+
+        .asym_item_smaller {
+            flex: 25%;
+        }
+
+        .logo {
+            height: 100px;
+            width: 100px;
+        }
+
+        div {
+            border-color: black;
+            border-style: double;
+        }
+
+        .content_flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #main_content {
+            margin: 100px;
+        }
+
+        #main_content {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+
+        #register div {
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            font-size: medium;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+
+        @media screen (max-width: 900px) {
+            .asym_flexy {
+                flex-direction: column-reverse;
+            }
+            .asym_item_bigger {
+                flex:100%;
+            }
+            .asym_item_smaller {
+                flex:100%;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="main_content" class="asym_flexy">
+        <div id="welcome" class="asym_item_bigger conten_flex"></div>
+        <div id="welcome">
+            <div id="welcome_image" class="logo">
+                Logo
+            </div>
+            <div id="welcome header">
+                <h1>Welcome to Jamaica</h1>
+            </div>
+            <div id="welcome_text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lorem lectus, gravida sit amet ornare nec, venenatis in diam. Nam sit amet massa pretium, imperdiet sem a, auctor ex. Cras sed justo leo.</p>
+            </div>
+        </div>
+        <div id="register" class="asym_item_smaller content_flex">
+            <div id="register_email">
+                <input type="email" name="email" id="email" placeholder="email">
+            </div>
+            <div id="register_password">
+                <input type="password" name="password" id="password">
+         </div>
+         <div id="register_button">
+
+         </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
