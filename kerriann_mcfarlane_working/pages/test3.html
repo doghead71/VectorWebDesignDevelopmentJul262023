@@ -8,7 +8,7 @@
     .flex_container {
         display: flex;
         flex-direction: row;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
         /*flex-flow: row wrap;*/
         justify-content: space-between;
         height: 350px;
@@ -20,7 +20,7 @@
         padding: 20px;
     }
 
-    #flexy > div {
+    #flexy>div {
         background-color: #ff00cc;
         padding: 15px;
         margin: 25px;
@@ -53,12 +53,20 @@
     <div id="navigation">
 
         <nav>
+            <element id="nav">
 
-            <a href="../index.html">Home</a>
-            <a href="./test2.html">Display example</a>
-            <a href="./test3.html">Flex example</a>
-            <a href="./test4.html">test4</a>
-            <a href="./box.html"> Box Layout</a>
+                <div>
+                    <img src="../img/RJR logo.png" alt="logo">
+                </div class="logo">
+
+
+                <ul class="nav_links">
+
+                    <a href="../index.html">Home</a>
+                    <a href="./test2.html">Display example</a>
+                    <a href="./test3.html">Flex example</a>
+                    <a href="./test4.html">test4</a>
+                    <a href="./box.html"> Box Layout</a>
         </nav>
     </div>
     <h1> Test me - Navigate and flex display</h1>
@@ -71,7 +79,7 @@
         <div id="Three">Three</div>
         <div id="Four">Four</div>
         <div id="Five">Five</div>
-       
+
     </div>
     <h1>Audio</h1>
     <audio controls>
