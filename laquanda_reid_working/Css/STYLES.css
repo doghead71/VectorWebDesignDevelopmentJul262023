@@ -29,7 +29,12 @@ h1, h2,h3
     height:80px;
     background-color:burlywood;
     font-size: large;
-    
+    float: right;}
+
+    .header-MAIN{ float: right;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
 
     
     
