@@ -22,15 +22,13 @@ body{font-style:initial;
 h1, h2,h3
     {color:maroon;
     font-size:medium;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-;}
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana,}
 
-
-#NAVIGATION{ float: right;
-margin-right: 20px;}
-
-nav ul li a{ display:flexbox;
+nav ul li{ display:flexbox;
     color:maroon;
-    font size:20px;}
+    font size:20px;
+    float: right;
+    margin-right: 20px;}
 
     
 .logo{ color:palevioletred;
@@ -49,7 +47,7 @@ font-weight: bold;
     
     
 
-}
+
 
 
 
