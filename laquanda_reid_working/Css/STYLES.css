@@ -10,7 +10,7 @@ body{font-style:initial;
     font-weight:bold;
     font-size: medium; 
     background-color:burlywood;
-    padding-top:60px;
+    padding-top: 80px;
    
 
 
@@ -46,7 +46,7 @@ line-height:1px;
 padding: 2px;
 font-weight:bold;
 position:absolute;
-top: 6px;left: 24pt;}
+border-top-right-radius:24pt;}
 
 
  
