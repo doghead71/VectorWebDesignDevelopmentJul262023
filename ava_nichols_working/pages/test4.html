@@ -6,10 +6,67 @@
         Test Four
     </title>
     <style>
-        #colors {
+        #fruits {
             display: flex;
             flex-direction: row;
+           /* background-color:red;*/
+            justify-content: space-evenly;
+            padding: 20px 25px;
+            flex-wrap: wrap;
+
         }
+
+        #fruits>div {
+            background-color: yellow;
+            padding: 50px 50px;
+            margin: 45px;
+            color: blue;
+            font-size: 40px;
+        }
+
+        .ripe {
+            flex-grow: inherit;
+        }
+
+        .status>div {
+            background-color: greenyellow;
+            margin: 20px;
+            padding: 40px 40px;
+            color: black;
+            font-size: medium;
+        }
+
+        .status {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .types > div {
+            padding:15px 15px;
+            background-color: orange;
+            margin: 10px;
+            color: black;
+            font-size: medium;
+        }
+
+        .types {
+            display:flex;
+            justify-content: space-between;
+        }
+        #navigation {
+            display:flex;
+            background-color: aquamarine;
+            justify-content: right;
+            padding: 15px;
+        }
+/*allow navigation links and body to display on tablets*/
+@media(max-width: 768px) {
+    nav {
+        flex-direction:row;
+        justify-content:first baseline;
+        /*align-items:center;*/
+    }
+}
 
     </style>
 </head>
@@ -24,21 +81,21 @@
         </nav>
     </div>
 
-    <div id="colors">
-        <div>
-            <div>Red</div>
-            <div>Green</div>
-            <div>Blue</div>
-        </div>
-        <div class="happy">
-            <div>Yellow
-                <div>One</div>
-                <div>Two</div>
-                <div>Three</div>
+    <div id="fruits">
+        <div>Grape</div>
+        <div>Pineapple</div>
+        <div>Orange</div>
+        <div class="ripe">Banana
+            <div class="status">
+                <div>Green</div>
+                <div>Ripe</div>
+                <div>Spoil</div>
             </div>
-            <div>White
-                <div>Four</div>
-                <div>Five</div>
+        </div>
+        <div>Mango
+            <div class="types">
+                <div>East Indian</div>
+                <div>Julie</div>
             </div>
         </div>
     </div>
