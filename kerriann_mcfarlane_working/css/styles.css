@@ -129,6 +129,7 @@ nav {
     width: 430px;
     float: left;
     justify-content: space-between;
+    align-items: start;
     
 }
 
@@ -136,6 +137,7 @@ nav {
     width: 430px;
     float: right;
     justify-content: space-between;
+    align-items: end;
     
 }
 
