@@ -158,3 +158,24 @@ h1, h2{
     color: #2804f7;
     text-align: center;
 }
+
+
+.colflex {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+ 
+  }
+
+.rowflex{
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+
+}
+  
+  .flex { 
+    flex-grow: 2; 
+    border: solid #2804f7;
+}
