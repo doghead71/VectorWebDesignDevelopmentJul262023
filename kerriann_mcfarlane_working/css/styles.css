@@ -7,16 +7,15 @@ body {
     background-color: grey;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .main_container {
-    width: 860px;
-    min-height: 500px;
     border: 1px;
-    margin: auto;
-    margin-top: 50px;
     background: grey;
     padding: none;
+    justify-content: space-between;
+    display: flex;
 }
 
 
@@ -125,24 +124,27 @@ nav {
     margin-bottom: 15px;
 }
 
+
 .main_container_inner_left {
-    width: 430px;
-    float: left;
+    /*width: 430px;*/
+    /*float: left;*/
     justify-content: space-between;
-    align-items: start;
-    
+    /*align-items: start;*/
+    /*flex: 10%;*/
+    padding-right: 100px;
 }
 
 .main_container_inner_right {
-    width: 430px;
-    float: right;
+    /*width: 430px;*/
+    /*float: right;*/
     justify-content: space-between;
-    align-items: end;
-    
+    /*align-items: end;*/
+    /*flex: 10%;*/
+
 }
 
 .container div {
-    padding: 10px ;
+    padding: 10px;
     border: 1px solid #000000;
 }
 
