@@ -25,16 +25,25 @@ h1, h2,h3
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-;}
 
 
-#NAVIGATION {width: 100%;
-    height:80px;
-    background-color:burlywood;
-    font-size: large;
-    float: right;}
+#NAVIGATION{ float: right;
+margin-right: 20px;}
 
-    .header-MAIN{ float: right;
-    margin-right: 20px;
-    margin-bottom: 50px;
+nav ul li a{ display:flexbox;
+    color:maroon;
+    font size:20px;}
+
+    
+.logo{ color:palevioletred;
+font-size:30px;
+line-height:80px;
+padding:0 100px;
+font-weight: bold;
+;
+
 }
+
+
+ 
 
     
     
