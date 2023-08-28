@@ -1,49 +1,44 @@
 body {
     margin: 0;
-    padding: 0 
+    padding: 0
 }
 
-.Welcome Back {
+.main_container {
     display: flex;
-    width: 125px;
-    height: 125px;
-    justify-content: center;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    border: 100px;
+    background: grey;
+    padding: 2px;
+    margin: 100%;
+    justify-content: space-between;
+     
+}
+
+#main_container_inner_left {
+    /*width: 430px;*/
+    /*float: left;*/
+    justify-content: space-between;
+    /*align-items: start;*/
+    /*flex: 10%;*/
+    padding-right: 10px;
+    width: 30%;
+}
+
+ /* Create two equal columns that float next to each other */
+
+#main_container_inner_right {
+    /*width: 430px;*/
+    /*float: right;*/
+    justify-content: space-between;
+    /*align-items: end;*/
+    /*flex: 10%;*/
 
 }
 
-.Welcome Back img {
-    height: 20%;
+h2 {
+    clear: both;
 }
-
-.Greatness {
-    display: flex;
-    width: 125px;
-    height: 125px;
-}
-
-.Greatness img {
-    height: 100%;
-}
-
-.img {
-    display: flex;
-    margin: 10px;
-}
-
-
-#img_container {
-    float: center;
-    /*margin-left: 35px;*/
-    /*margin-right: 35px;*/
-
-}
-
-h1,
-h2,
-h3 {
-    text-align: center;
-    text-decoration: underline;
-}   
 
 
 
@@ -55,3 +50,10 @@ h3 {
         align-items: center;
     }
 }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
