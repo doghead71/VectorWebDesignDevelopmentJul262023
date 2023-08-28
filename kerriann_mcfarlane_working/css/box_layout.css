@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0 
+}
+
+.Welcome Back {
+    display: flex;
+    width: 125px;
+    height: 125px;
+    justify-content: center;
+
+}
+
+.Welcome Back img {
+    height: 20%;
+}
+
+.Greatness {
+    display: flex;
+    width: 125px;
+    height: 125px;
+}
+
+.Greatness img {
+    height: 100%;
+}
+
+.img {
+    display: flex;
+    margin: 10px;
+}
+
+
+#img_container {
+    float: center;
+    /*margin-left: 35px;*/
+    /*margin-right: 35px;*/
+
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}   
+
+
+
+/* allow navigation bars on small browsers to display as centered logo on top, followed by centered navigation links */
+@media(max-width: 650px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
