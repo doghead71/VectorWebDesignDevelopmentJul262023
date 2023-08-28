@@ -19,20 +19,14 @@ body {
 }
 
 .main_container_inner_left {
-    /*width: 430px;*/
-    /*float: left;*/
     justify-content: space-between;
-    /*align-items: start;*/
-    /*flex: 10%;*/
     padding-right: 100px;
+    width: 30%;
+
 }
 
 .main_container_inner_right {
-    /*width: 430px;*/
-    /*float: right;*/
     justify-content: space-between;
-    /*align-items: end;*/
-    /*flex: 10%;*/
 
 }
 
