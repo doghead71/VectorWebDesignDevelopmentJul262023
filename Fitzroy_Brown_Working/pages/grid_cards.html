@@ -1,60 +1,148 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-
-.grid-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	gap: 10px;
-	background-color: #2196F3;
-	padding: 10px;
-	
+* {
+  box-sizing: border-box;
 }
 
-.grid-container > div {
-	background-color: rgba(255, 255, 255, 0.8);
-	text-align: center;
-	padding: 20px 0;
-	font-size: 20px;
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+ 
 }
 
-.content {
-	grid-row-start: 1;
-	grid-column-end: 5;
-}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 10px;
+}
 </style>
-
 </head>
-
 <body>
+
+
+
+
+   
+    <div class="row" style="background-color:#240eeb;">
+        whole row
+    </div>
+
+
+
 
 <h2>Popular</h2>
 
-	<div class="grid-container">
-		<div id="content1">Title of Content</div>
-		<div id="content2">Title of Content</div>
-		<div id="content3">Title of Content</div>
-		<div id="content4">Title of Content</div>
-		<div id="content5">Title of Content</div>
-	</div>
+
+<div class="row">
+
+
+    <div class="column">
+        <div class="row"  style="background-color:#aaa;">
+            <h2>Box</h2>
+        </div>
+        <div class="row">
+            <p>Some text..</p>
+        </div>
+    </div>
+   
+    <div class="column">
+        <div class="row"  style="background-color:#aaa;">
+            <h2>Box</h2>
+        </div>
+        <div class="row">
+            <p>Some text..</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="row"  style="background-color:#aaa;">
+            <h2>Box</h2>
+        </div>
+        <div class="row">
+            <p>Some text..</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="row"  style="background-color:#aaa;">
+            <h2>Box</h2>
+        </div>
+        <div class="row">
+            <p>Some text..</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="row"  style="background-color:#aaa;">
+            <h2>Box</h2>
+        </div>
+        <div class="row">
+            <p>Some text..</p>
+        </div>
+    </div>
+   
+</div>
+
 
 <h2>Staff Picks</h2>
 
-	<div class="grid-container">
-		<div id="content1">Title of Content</div>
-		<div id="content2">Title of Content</div>
-		<div id="content3">Title of Content</div>
-		<div id="content4">Title of Content</div>
-		<div id="content5">Title of Content</div>
-	</div>
+
+<div class="row">
+
+
+    <div class="column">
+        <div class="row"  style="background-color:#aaa;">
+            <h2>Box</h2>
+        </div>
+        <div class="row">
+            <p>Some text..</p>
+        </div>
+    </div>
+   
+    <div class="column">
+        <div class="row"  style="background-color:#aaa;">
+            <h2>Box</h2>
+        </div>
+        <div class="row">
+            <p>Some text..</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="row"  style="background-color:#aaa;">
+            <h2>Box</h2>
+        </div>
+        <div class="row">
+            <p>Some text..</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="row"  style="background-color:#aaa;">
+            <h2>Box</h2>
+        </div>
+        <div class="row">
+            <p>Some text..</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="row"  style="background-color:#aaa;">
+            <h2>Box</h2>
+        </div>
+        <div class="row">
+            <p>Some text..</p>
+        </div>
+    </div>
+   
+</div>
 
 
 </body>
-
 </html>
+
+
