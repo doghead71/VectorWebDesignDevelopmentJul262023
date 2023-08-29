@@ -1,37 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!Doctype html>
 <html>
 
 <head>
-    <title>Grid of Cards Layout</title>
-    <meta charset="utf-8">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
-   body  {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: blanchedalmond;
-   }
 
-   .card-grid {
-    display: grid;
-    grid-template-columns: repeat (auto-fill, minmax(150px, ifr));
-    gap: 20px;
-   }
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap: 10px;
+	background-color: #2196F3;
+	padding: 10px;
+	
+}
 
-   .card {
-    background-color: #fff;
-    border: 1px solid #080808;
-    border-radius: 8px;
-    padding: 20px;
-   }
+.grid-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 20px;
+}
 
-</style>    
+.content {
+	grid-row-start: 1;
+	grid-column-end: 5;
+}
+
+</style>
+
 </head>
 
 <body>
 
+<h2>Popular</h2>
+
+	<div class="grid-container">
+		<div id="content1">Title of Content</div>
+		<div id="content2">Title of Content</div>
+		<div id="content3">Title of Content</div>
+		<div id="content4">Title of Content</div>
+		<div id="content5">Title of Content</div>
+	</div>
+
+<h2>Staff Picks</h2>
+
+	<div class="grid-container">
+		<div id="content1">Title of Content</div>
+		<div id="content2">Title of Content</div>
+		<div id="content3">Title of Content</div>
+		<div id="content4">Title of Content</div>
+		<div id="content5">Title of Content</div>
+	</div>
+
+
 </body>
+
 </html>
