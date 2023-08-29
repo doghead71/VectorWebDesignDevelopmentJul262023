@@ -8,6 +8,21 @@
 </head>
 
 <body>
+    <div id="main_content">
+        <div class="col1">
+            <h1> About the Company </h1>
+
+            <img src="./img/test.WEBP" alt="none" height="100px" />
+
+            <div id="image_container">
+                <img src="./img/Event Planning.jpg" alt="none" height="100%" />
+            </div>
+
+            <div id="about Company">
+                <!-- Red, Green, Blue- Cyan, Magenta, Yellow -->
+                <p style=" color: #ff0000; font-size: large;">
+            </div>
+        </div>
     <header>
         <!-- Header content goes here -->
     </header>
