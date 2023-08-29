@@ -20,6 +20,11 @@ body {
     color: #333;
 }
 
+img {
+    float: inline-end;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 /* Header Styles */
 header {
     font-size: medium;
