@@ -22,15 +22,17 @@ margin-bottom: 200px;
 #pinkpar { color: #fe4c00!important}
 
 #image_container{
-    float: left;
+    /*float: left;*/
     margin-left: 40px;
     margin-right: 40px;
+    height: 400px;
 }
 
 /*img {
     max-width: 100%;
     height: auto;
-  }*/
+}*/
+
 
 /*img {
     float: left;
@@ -90,29 +92,34 @@ nav{
         height: 200;
     }
     
-}
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+      }
+    }
+    
 
-/* For mobile phones: */
-[class*="col-"] {
+.col1 {
     width: 100%;
-  }
-    
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
+    border: #fe4c00;
+    border-style:groove;
 
 }
+.col2 {
+    width: 100%;
+    border: #fe4c00;
+    border-style: double;
+}
 
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    
+#main_content {
+    display: flex;
+    flex-direction: row;
+
+}
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+#main_content {
+    flex-direction: column;
+
+}
 }
