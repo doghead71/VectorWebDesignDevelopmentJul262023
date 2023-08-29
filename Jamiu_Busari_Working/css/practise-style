@@ -1,7 +1,13 @@
 /* Reset default margins and paddings */
-body,
-h1,
-h2,
+body {
+    color: #00ff00;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #5f9a5f;
+    margin: 0;
+    padding: 0;
+}
+
 p {
     margin: 0;
     padding: 0;

@@ -116,10 +116,3 @@ nav{
     flex-direction: row;
 
 }
-@media only screen and (max-width: 600px) {
-    /* For tablets: */
-#main_content {
-    flex-direction: column;
-
-}
-}
