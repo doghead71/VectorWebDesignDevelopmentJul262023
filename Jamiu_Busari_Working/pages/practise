@@ -5,24 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Three-Column Layout</title>
+    <title>Event Planning Services | Adewale Event Planning</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="column">
-            <h2>Column 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <header>
+        <!-- Header content goes here -->
+    </header>
+
+    <section class="hero">
+        <!-- Hero content goes here -->
+    </section>
+
+    <section class="services">
+        <div class="service">
+            <h2>Wedding Planning</h2>
+            <p>We specialize in creating dream weddings that leave a lasting impression.</p>
+            <a href="#" class="learn-more">Learn More</a>
         </div>
-        <div class="column">
-            <h2>Column 2</h2>
-            <p>Nullam nec libero vel nisl fermentum euismod.</p>
+        <div class="service">
+            <h2>Corporate Events</h2>
+            <p>From conferences to product launches, we'll make your event a success.</p>
+            <a href="#" class="learn-more">Learn More</a>
         </div>
-        <div class="column">
-            <h2>Column 3</h2>
-            <p>Etiam efficitur diam id consectetur mattis.</p>
+        <div class="service">
+            <h2>Private Parties</h2>
+            <p>Celebrate life's special moments with our expert event planning services.</p>
+            <a href="#" class="learn-more">Learn More</a>
         </div>
-    </div>
+    </section>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
 </body>
 
 </html>

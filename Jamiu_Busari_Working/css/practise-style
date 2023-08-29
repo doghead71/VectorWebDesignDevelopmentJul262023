@@ -1,34 +1,65 @@
 /* Reset default margins and paddings */
 body,
+h1,
 h2,
 p {
     margin: 0;
     padding: 0;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    font-size: medium;
+    font-weight: 100;
+}
+
+/* Hero Section Styles */
+.hero {
+    font-style: oblique;
+    font-variant: normal;
+}
+
+/* Services Section Styles */
+.services {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px;
 }
 
-.column {
+.service {
     flex: 1;
-    background-color: #f4f4f4;
+    background-color: #fff;
     padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-/* Media Queries for Responsive Design */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
+.service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 
-    .column {
-        margin: 10px 0;
-    }
+.learn-more {
+    display: inline-block;
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    font-size: small;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
