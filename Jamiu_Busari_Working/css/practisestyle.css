@@ -35,6 +35,7 @@ header {
 .hero {
     font-style: oblique;
     font-variant: normal;
+    font-size: larger;
 }
 
 /* Services Section Styles */
