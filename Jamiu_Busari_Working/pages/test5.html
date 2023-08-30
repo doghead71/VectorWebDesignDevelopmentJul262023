@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .column {
+    flex-direction: column;
+    padding: 80px;
+    box-sizing: border-box;
+  }
+
+  .footer {
+    display: flex;
+    background-color: #b98109;
+    color: white;
+    padding: 20px;
+    flex-direction: initial;
+  }
+
+  .footer .left-column {
+    flex: 33.33%;
+    padding: 0 10px;
+  }
+
+  .footer .right-column {
+    flex: 33.33%;
+    padding: 0 10px;
+  }
+</style>
+<title>3 Column Layout with 5 Different Footers</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>This is the content of column 1.</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>This is the content of column 2.</p>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+    <h2>Column 3</h2>
+    <p>This is the content of column 3.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="left-column">
+    <h3>Footer 1 (Left)</h3>
+    <p>Footer content 1.</p>
+  </div>
+  <div class="left-column">
+    <h3>Footer 2 (Left)</h3>
+    <p>Footer content 2.</p>
+  </div>
+  <div class="left-column">
+    <h3>Footer 3 (Left)</h3>
+    <p>Footer content 3.</p>
+  </div>
+  <div class="right-column">
+    <h3>Footer 4 (Right)</h3>
+    <p>Footer content 4.</p>
+  </div>
+  <div class="right-column">
+    <h3>Footer 5 (Right)</h3>
+    <p>Footer content 5.</p>
+  </div>
+</div>
+
+</body>
+</html>

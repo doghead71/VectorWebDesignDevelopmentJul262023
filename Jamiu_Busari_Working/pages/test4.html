@@ -1,80 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            color: #00ff00;
+            font-size: large;
+            font-weight: bolder;
+            background-color: #5f9a5f;
+            margin: 0;
+            padding: 0;
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-  }
+            font-family: Arial, sans-serif;
+        }
 
-  .column {
-    flex: 33.33%;
-    padding:  150px;
-    box-sizing: border-box;
-  }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
 
-  .footer {
-    display: flex;
-    background-color: #333;
-    color: white;
-    padding: 20px;
-  }
+        }
 
-  .footer .column {
-    flex: 20%;
-    padding: 10px;
-  }
-</style>
-<title>3 Column Layout with 5 Column Footer | Assignment</title>
+        .column {
+            flex: 100%;
+            padding: 100px;
+            box-sizing: border-box;
+            column-count: 3;
+            column-gap: 40px;
+            column-rule: 1px solid lightblue;
+        }
+
+        .footer {
+            display: flex;
+            background-color: #333;
+            color: rgb(215, 38, 38);
+            padding: 20px;
+        }
+
+        .footer .column {
+            flex: 20%;
+            padding: 0 10px;
+        }
+    </style>
+    <title>3 Column Layout with 5 Column Footer | Assignment</title>
 </head>
+
 <body>
 
-<div class="container">
-  <div class="column" style="background-color:#aaa;">
-    <h2>Column 1</h2>
-    <p>This is the content of column 1.</p>
-  </div>
-  <div class="column" style="background-color:#bbb;">
-    <h2>Column 2</h2>
-    <p>This is the content of column 2.</p>
-  </div>
-  <div class="column" style="background-color:#ccc;">
-    <h2>Column 3</h2>
-    <p>This is the content of column 3.</p>
-  </div>
-</div>
+    <div class="container">
+        <div class="column" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>This is the content of column 1.</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <h2>Column 2</h2>
+            <p>This is the content of column 2.</p>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+            <h2>Column 3</h2>
+            <p>This is the content of column 3.</p>
+        </div>
+    </div>
 
-<div class="footer">
-  <div class="column">
-    <h3>Footer 1</h3>
-    <p>Footer content 1.</p>
-  </div>
-  <div class="column">
-    <h3>Footer 2</h3>
-    <p>Footer content 2.</p>
-  </div>
-  <div class="column">
-    <h3>Footer 3</h3>
-    <p>Footer content 3.</p>
-  </div>
-  <div class="column">
-    <h3>Footer 4</h3>
-    <p>Footer content 4.</p>
-  </div>
-  <div class="column">
-    <h3>Footer 5</h3>
-    <p>Footer content 5.</p>
-  </div>
-</div>
+    <div class="footer">
+        <div class="column">
+            <h3>Footer 1</h3>
+            <p>Footer content 1.</p>
+        </div>
+        <div class="column">
+            <h3>Footer 2</h3>
+            <p>Footer content 2.</p>
+        </div>
+        <div class="column">
+            <h3>Footer 3</h3>
+            <p>Footer content 3.</p>
+        </div>
+        <div class="column">
+            <h3>Footer 4</h3>
+            <p>Footer content 4.</p>
+        </div>
+        <div class="column">
+            <h3>Footer 5</h3>
+            <p>Footer content 5.</p>
+        </div>
+    </div>
 
 </body>
 </html>
