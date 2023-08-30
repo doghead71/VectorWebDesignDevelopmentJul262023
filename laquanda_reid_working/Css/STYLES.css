@@ -21,45 +21,63 @@ body{font-style:italic;
 .Dark green{color:#074507
 
 }
-
-
+ 
 
 h1, h2,h3
     {color:maroon;
     font-size:medium;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana,}
-
-
-
-
-
-
-
-
-
-#NAVIGATION { 
-   color: maroon;
-    line-height:1px;
-    width: 100px;
-    font-size: large;
-    
-    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana;
+margin-top: 10px;
 }
 
 
-    
+*{ margin:0
+    ;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:maroon
+
+}
+
+
+.header{position:fixed;
+top:0;
+left:0;
+width:100%;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+background:palevioletred;
+
+
+}
+
+.logo{ font: size 35px;
+color: #074507;
+text-decoration: double;
+font-weight:800;
+height: 2px;
+
+
+}
+
+.Navbar a::before { 
+    position: absolute;
+    top: 100%;
+    left:0;
+    width: 100px;
+    height: 2px;}
 
 
 
-
+#img_container > img { float:right;
+} 
+/* float the image that is inside img container to rigt */
 
  
 
-    
-    
-    
-
-
 
 
 
@@ -68,4 +86,8 @@ h1, h2,h3
 
 
     
+    
+
+
+
     
