@@ -11,3 +11,12 @@ div p {color: black;}
 .par-pink {color: #4157A2;}
  {color:#4157A2!important}
 
+#img_container {
+    float: left;
+    margin-left: 35px;
+    Margin-right: 35px;
+}
+
+h2 {
+    clear: both;
+}
