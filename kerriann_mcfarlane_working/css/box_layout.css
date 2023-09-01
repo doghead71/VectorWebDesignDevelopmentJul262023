@@ -49,46 +49,53 @@ Rewards icon {
     text-align: center;
 }
 
-.Secondary section .section img {
+.section-title .Greatness quote img {
     max-width: 280%;
-    width: 100%;
+    width: 50%;
 }
+
+.section-title .Rewards icon img {
+    max-width: 280%;
+    width: 50%;
+}
+
 
 .main_container {
     display: flex;
-    justify-content: center;
-    /*grid: auto*/;
-    /*flex-direction: row*/;
-    /*flex-wrap: wrap*/;
-    border: 10px;
+    justify-content: space-between;
+    /*grid: auto*/
+    ;
+    /*flex-direction: row*/
+    ;
+    /*flex-wrap: wrap*/
+    ;
+    border: 1px;
     background: grey;
-    padding: 50px;
-    margin: 95%;
+    padding: none;
+
 
 }
 
 .main_container_inner_left {
-    display: flex;
-    width: 40%;
-    /*justify-content: space-around;*/
-    padding-right: 20px;
-    flex-direction: row;
-    
+    justify-content: space-between;
+    padding-right: 100px;
+    width: 30%;
 
 }
 
 
 
 .main_container_inner_right {
-    display: flex;
-    /*justify-content: space-around;*/
-    flex-direction: row;
-    width: 20%;
-   
+    justify-content: space-between;
+
+
 
 }
 
-
+.container div {
+    padding: 10px;
+    border: 1px solid #000000;
+}
 
 
 h2 {
