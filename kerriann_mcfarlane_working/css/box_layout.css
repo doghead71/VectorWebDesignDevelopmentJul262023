@@ -5,7 +5,7 @@ body {
 }
 
 
-.Welcome Back img {
+/*.Welcome Back img {
     max-width: 70%;
     justify-content: center;
 }
@@ -17,27 +17,42 @@ Welcome {
 }
 
 
-.Greatness img {
+.Greatness quote img {
     max-width: 30%;
-    justify-content: right;
-}
-
-
-Greatness {
-    display: flex;
-}
-
-.Rewards img {
-    max-width: 20%;
     justify-content: left;
 }
 
 
-Rewards {
+.Greatness quote {
     display: flex;
 }
 
 
+
+
+Rewards icon {
+    display: flex;
+}
+*/
+
+
+/* Secondary section*/
+
+.Secondary section {
+    padding: 80px 0 80px;
+}
+
+.Secondary section .section {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 60%;
+    text-align: center;
+}
+
+.Secondary section .section img {
+    max-width: 280%;
+    width: 100%;
+}
 
 .main_container {
     display: flex;
@@ -58,7 +73,7 @@ Rewards {
     /*justify-content: space-around;*/
     padding-right: 20px;
     flex-direction: row;
-    text-align: left;
+    
 
 }
 
@@ -69,7 +84,7 @@ Rewards {
     /*justify-content: space-around;*/
     flex-direction: row;
     width: 20%;
-    text-align: right;
+   
 
 }
 
@@ -83,6 +98,7 @@ h2 {
 h3 {
     clear: both;
 }
+
 
 /* allow navigation bars on small browsers to display as centered logo on top, followed by centered navigation links */
 @media(max-width: 650px) {
