@@ -9,7 +9,7 @@
         #fruits {
             display: flex;
             flex-direction: row;
-           /* background-color:red;*/
+            /* background-color:red;*/
             justify-content: space-evenly;
             padding: 20px 25px;
             flex-wrap: wrap;
@@ -41,8 +41,8 @@
             justify-content: space-between;
         }
 
-        .types > div {
-            padding:15px 15px;
+        .types>div {
+            padding: 15px 15px;
             background-color: orange;
             margin: 10px;
             color: black;
@@ -50,24 +50,25 @@
         }
 
         .types {
-            display:flex;
+            display: flex;
             justify-content: space-between;
         }
+
         #navigation {
-            display:flex;
+            display: flex;
             background-color: aquamarine;
             justify-content: right;
             padding: 15px;
         }
-/*allow navigation links and body to display on tablets*/
-@media(max-width: 768px) {
-    nav {
-        flex-direction:row;
-        justify-content:first baseline;
-        /*align-items:center;*/
-    }
-}
 
+        /*allow navigation links and body to display on tablets*/
+        @media(max-width: 768px) {
+            nav {
+                flex-direction: row;
+                justify-content: first baseline;
+                /*align-items:center;*/
+            }
+        }
     </style>
 </head>
 
@@ -75,9 +76,11 @@
     <div id="navigation">
         <nav>
             <a href="../index.html">Index</a>
+            <a href="../main.html">Main</a>
             <a href="./test2.html">Display Example</a>
             <a href="./test3.html">Flex Example`</a>
             <a href="#">Test Four</a>
+            <a href="./test5.html">Test Five</a>
         </nav>
     </div>
 
