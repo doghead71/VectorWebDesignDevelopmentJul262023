@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <style>
-        .flex_container{
+        .flex_container {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -10,38 +11,48 @@
             justify-content: center;
             align-items: center;
         }
-        #flexy{
+
+        #flexy {
             background-color: rgb(16, 138, 245);
             padding: 20px;
-        }    
-        #flexy > div{
-            background-color:#ff4d00 ;
+        }
+
+        #flexy>div {
+            background-color: #ff4d00;
             padding: 15px;
             margin: 25px;
             color: rgb(15, 113, 199);
-            font-size: 30px;}
-            
-            #One{
-                order: 3;
-            }
-            #Two{
-                order: 5;
-                /*flex-grow: 3;*/
-                /*flex-shrink: 2;*/
-            }
-            #Three{
-                order: 1;
-            }
-            #four{
-                order: 2;
-            }
-    
+            font-size: 30px;
+        }
 
-        </style>
+        #One {
+            order: 3;
+        }
+
+        #Two {
+            order: 5;
+            /*flex-grow: 3;*/
+            /*flex-shrink: 2;*/
+        }
+
+        #Three {
+            order: 1;
+        }
+
+        #four {
+            order: 2;
+        }
+
+        button {
+            margin: 5px;
+            font-size: medium;
+        }
+    </style>
 </head>
+
 <body>
     <div id="Navigation" name="Navigation">
-        <nav> 
+        <nav>
             <a href="../index.html"> Home </a>
             <a href="./test2.html"> Display Example</a>
             <a href="#"> Flex Example</a>
@@ -51,6 +62,8 @@
         TEST ME - NAVIGATE and flex display</h1>
 
     <h2> Flexible Example</h2>
+    <button onclick="document.getElementById('three').innerHTML='3'">Click Me</button>
+    <button onclick="toggleThree()"> Toggle</button>
     <div id="flexy" class="flex_container">
         <div id="One">One</div>
         <div id="Two">Two</div>
@@ -58,11 +71,17 @@
         <div> Four</div>
         <div> Five</div>
     </div>
+    
     <div id="video_container">
-    <video 
-    height="315px"
-    width="560" controls>
-    <source src="./video/highlight.mp4"> </div>
-</video>
+        <video height="315px" width="560" controls>
+            <source src="./video/highlight.mp4">
+    </div>
+    </video>
+    <script>
+        function toggleThree() {
+            document.getElementById('three').innerHTML='3'
+        }
+    </script>
 </body>
+
 </html>

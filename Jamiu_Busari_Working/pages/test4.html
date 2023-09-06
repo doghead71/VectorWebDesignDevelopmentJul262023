@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            color: #00ff00;
+            color: #2e19ec;
             font-size: large;
             font-weight: bolder;
             background-color: #5f9a5f;
@@ -24,12 +24,12 @@
         }
 
         .column {
-            flex: 100%;
+            flex: 90px;
             padding: 100px;
             box-sizing: border-box;
-            column-count: 3;
             column-gap: 40px;
             column-rule: 1px solid lightblue;
+            flex-direction: column;
         }
 
         .footer {
@@ -37,11 +37,18 @@
             background-color: #333;
             color: rgb(215, 38, 38);
             padding: 20px;
+            
         }
 
         .footer .column {
             flex: 20%;
             padding: 0 10px;
+            word-break: break-all;
+        }
+        h3 {
+            padding: 20px;
+            margin: 0%;
+
         }
     </style>
     <title>3 Column Layout with 5 Column Footer | Assignment</title>
