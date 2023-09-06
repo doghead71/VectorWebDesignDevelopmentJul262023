@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            body {
+                box-sizing: border-box;
+            }
+            .asym_flexy {
+                display: flex;
+                flex-direction: row;
+                border-color: blue;
+            }
+            .asym_item_bigger {
+                flex:75%;
+            }
+            .asym_item_smaller{
+                flex:25%;
+            }
+            .logo {
+                height:100px;
+                width:100px;
+                margin-top: 50px;
+                margin-bottom: 10px;
+                border-style: solid;
+            }
+
+            div {
+                border-color: black;
+                /* border-style: double; */
+            }
+            .content_flex {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            #main_content {
+                margin: 100px;
+            }
+            #main_content p {
+                padding-left:70px;
+                padding-right: 70px;
+                padding-bottom: 30px;
+            }
+            #main_content > div {
+                border-style: solid;
+            }
+
+            #register div{
+                margin-bottom: 10px;
+            }
+            button {
+                background-color: black;
+                color:white;
+                font-size: medium;
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+
+            @media (max-width: 1200px) {
+                .asym_item_bigger {
+                    flex:60%;
+                }
+                .asym_item_smaller{
+                    flex:40%;
+                }
+            }
+            @media (max-width: 900px) {
+                .asym_flexy {
+                    flex-direction: column-reverse;
+                }
+                .asym_item_bigger {
+                    flex:100%;
+                }
+                .asym_item_smaller{
+                    flex:100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main_content" class="asym_flexy">
+            <div id="welcome" class="asym_item_bigger content_flex">
+                <div id="welcome_image" class = "logo">
+                    logo
+                </div>
+                <div id="welcome_header">
+                    <h1>Welcome to Jamaica</h1>
+                </div>
+                <div id="welcome_text">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas finibus mi ut sodales. Phasellus blandit tempor est, a consectetur diam venenatis non. Nam congue ex ut erat aliquet aliquet. Vivamus et lorem ac lorem dapibus scelerisque nec at nulla. Aliquam erat volutpat. In nisi enim, efficitur vel tincidunt vel, sollicitudin vitae tortor. Nam sit amet posuere massa. Proin eget turpis eu nulla tempus sollicitudin. Duis consectetur maximus velit vitae fermentum. In maximus est eget interdum auctor. Suspendisse leo massa, egestas vel libero convallis, interdum sollicitudin magna. Vivamus bibendum, lacus eu convallis dignissim, magna dui interdum lacus, at vestibulum velit metus at ante. Sed vel ex eget justo sagittis egestas ut nec arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum volutpat volutpat ligula, a sodales leo elementum at. Curabitur non enim ut leo accumsan gravida. </p>
+                </div>
+            </div>
+            <div id="register" class="asym_item_smaller content_flex">
+                <div id = "register_header">
+                    <h1>Register</h1>
+                </div>
+                <div id="register_email">
+                    <input type="email" name="email" id="email" placeholder="email">
+                </div>
+                <div id="register_password">
+                    <input type="password" name="password" id="password" placeholder="password">
+                </div>
+                <div id="register_button">
+                    <button type="submit">Click Me</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

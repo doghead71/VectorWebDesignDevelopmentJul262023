@@ -44,6 +44,11 @@
             #four { 
                 order: 4;
             }
+            
+            button {
+                margin: 5px;
+                font-size: medium;
+            }
 
         </style>
     </head>
@@ -58,6 +63,10 @@
         <h1> TEST ME - NAVIGATE and Flex display</h1>
 
         <h2>Flexible Example</h2>
+
+        <button onclick="document.getElementById('three').innerHTML='3'">Click Me</button>
+        <button onclick="toggleThree()">Toggle</button>
+
         <div id ="flexy" class = "flex_container">
             <div id="one">One</div>
             <div id="two">Two</div>
@@ -66,5 +75,10 @@
             <div id="five">Five</div>
 
         </div>
+        <script>
+            function toggleThree() {
+                document.getElementById('three').innerHTML='3';
+            }
+        </script>
     </body>
 </html>
