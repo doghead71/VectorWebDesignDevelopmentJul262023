@@ -1,16 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Display Example</title>
+        <link href="../css/styles.css" type="text/css" rel="stylesheet">
+        <style>
+            p {color: darkred; font-size: 25px;}
+            p.eg1 {display: none;}
+            p.eg2 {display: inline;}
+            p.eg3 {display: block;}
+            p.eg4 {display: inline-block;}
+        </style>
     </head>
     <body>
         <div id="navigation">
             <nav>
-                <a href="../index.html">Home</a>
-                <a href="#">Test 2</a>
-                <a href="../pages/test3.html">Test3</a>
+                <!-- Logo -->
+                <div class="logo">
+                <img src="../IMG/logo.png" alt="logo">
+                </div>
+                <!-- Links -->
+                <ul class="nav_links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Display Example</a></li>
+                <li><a href="../pages/test3.html">Flex Example</a></li>
+                <li><a href="../pages/test4.html">Layout</a></li>
+                <li><a href="../pages/test5.html">Z Layout</a></li>
+                </ul>
             </nav>
-         </div>
-        <h1> TEST ME. NAVIGATE</h1>
+         </div>      
+        <h1> TEST ME. NAVIGATE and DISPLAY</h1>
+
+        <h2>Testing None</h2>
+        <div>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. <p class="eg1">Gxa</p>Lorem Ipsum has been the 
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+            and scrambled it to make a type specimen book. 
+
+        <h2>Testing Inline</h2>
+        <div>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. <p class="eg2">Gxa</p>Lorem Ipsum has been the 
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+            and scrambled it to make a type specimen book.  
+        </div>
+
+        <h2>Testing Block</h2>
+        <div>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<p class="eg3">Gxa</p> Lorem Ipsum has been the 
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+            and scrambled it to make a type specimen book.  
+        </div>
+
+        <h2> Testing Inline-Block</h2>
+        <div>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<p class="eg4">Gxa</p> Lorem Ipsum has been the 
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+            and scrambled it to make a type specimen book.
+        </div>
+
     </body>
 </html>

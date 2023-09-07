@@ -1,44 +1,75 @@
 <!DOCTYPE html> 
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Georgia Golding Test page </title>
+        <link href="./css/styles.css" type="text/css" rel="stylesheet">
+       <!-- <style> </style>-->
     </head>
     <body>
      <div id="navigation">
         <nav>
-            <a href="#">Home</a>
-            <a href="./pages/test2.html">Test 2</a>
-            <a href="./pages/test3.html">Test 3</a>
+            <!-- Logo -->
+            <div class="logo">
+            <img src="./IMG/logo.png" alt="logo">
+            </div>
+            <!-- Links -->
+            <ul class="nav_links">
+            <li><a href="#">Home</a></li>
+            <li><a href="./pages/test2.html">Display Example</a></li>
+            <li><a href="./pages/test3.html">Flex Example</a></li>
+            <li><a href="./pages/test4.html">Layout</a></li>
+            <li><a href="./pages/test5.html">Z Layout</a></li>
+            </ul>
         </nav>
      </div>   
 
+<div class= "col1">
         <h1>About Me</h1>
-
      <div id="img-container">
-        <img src="./img/pic.jpg" height="150px"/>
+        <img src="./img/pic.jpg" height="190px"/>
      </div>
-  
-<p>
-    I have 5 names total in inclusive of 2 middle and 2 last names.
-    <!--<br/>-->
-</p>
-<p>
-    I am short.
-</p>
-<h2> Achievements </h2>
-<ul>
-    <li>9 Subjects</li>
-    <li>Graphic design</li>
-    <li>doodler</li>
-    <li>code knowledge</li>
-</ul>
-<h3> How to Engage </h3>
-<ol>
-    <li>Send Email to <a href="mailto:georgia.n.r.black@gmail.com" 
+
+    <div id="about_me">
+    
+     <p style=" color:rgb(128, 0, 128); font-size:larger;" > My name is Georgia.</p> 
+     <p>
+     I have 5 names total inclusive of 2 middle and 2 last names.
+        </p>
+     <p>
+     I am short. <br>
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+     and scrambled it to make a type specimen book. It has survived not only five centuries, but also the 
+     leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+     with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+     publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </div>    
+         <p class="par-pink">
+            See Achievements Below:
+        </p>
+</div>
+
+<div class="col2">
+    <h2> Achievements </h2>
+    <ul>
+     <li>9 Subjects</li>
+     <li>Graphic design</li>
+     <li>doodler</li>
+     <li>code knowledge</li>
+    </ul>
+</div>
+
+<div class="col3">
+    <h3> How to Engage </h3>
+    <ol>
+        <li>Send Email to <a href="mailto:georgia.n.r.black@gmail.com" 
         target="_blank">georgia.n.r.black@gmail.com</a>.</li>
-    <li>An Email wll be sent to you, agree to the terms and conditions.</li>
-    <li>Make payment.</li>
-    <li>Send confirmation of payment to the email address listed above.</li>
-</ol>
+        <li>An Email wll be sent to you, agree to the terms and conditions.</li>
+        <li>Make payment.</li>
+     <li>Send confirmation of payment to the email address listed above.</li>
+    </ol>
+</div>  
     </body>
 </html>

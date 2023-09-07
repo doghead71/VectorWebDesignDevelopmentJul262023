@@ -1,17 +1,28 @@
-                 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
-
+        <title></title>
+        <link href="../css/styles.css" type="text/css" rel="stylesheet">
     </head>
+
     <body>
         <div id="navigation">
             <nav>
-                <a href="../index.html">Home</a>
-                <a href="../pages/test2.html">Test2</a>
-                <a href="#">Test 3</a>
+                <!-- Logo -->
+                <div class="logo">
+                <img src="../IMG/logo.png" alt="logo">
+                </div>
+                <!-- Links -->
+                <ul class="nav_links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/test2.html">Display Example</a></li>
+                <li><a href="#">Flex Example</a></li>
+                <li><a href="../pages/test4.html">Layout</a></li>
+                <li><a href="../pages/test5.html">Z Layout</a></li>
+                </ul>
             </nav>
          </div>
-        <h1>Video</h1>
+                <h1>Video</h1>
         <video width="400" height="350" controls autoplay muted>
             <source src="../video/wannabe.mp4" type="video/mp4">
             This video format is not supported. Sorry.
@@ -21,5 +32,44 @@
         <audio controls>
             <source src="../audio/fire.mp3" type="audio/mp3">
         </audio>
+
+<br><br><br>
+
+        <h1>Script Example </h1>
+
+        <button onclick="document.getElementById('three').innerHTML='3'">Click Me</button>
+        <button onclick="toggleOne()">Toggle 1</button>
+        <button onclick="toggleTwo()">Toggle 2</button>
+        <button onclick="toggleThree()">Toggle 3</button>
+        <button onclick="toggleFour()">Toggle 4</button>
+        <button onclick="toggleFive()">Toggle 5</button>
+        <div>
+           <div id="one">One</div>
+           <div id="two">Two</div>
+           <div id="three">Three</div>
+           <div id="four">Four</div>
+           <div id="five">Five</div>
+        </div>
+
+        <script>
+           function toggleThree()
+           {
+            let div3 = document.getElementById('three');
+            
+            if(div3.innerHTML=='Three')
+            {
+                div3.innerHTML='3';
+            }
+            else
+            {
+                div3.innerHTML='Three';
+            }
+           }
+        </script>
+        <script src="../js/toggle.js"></script>
+        
+<br><br><br>
     </body>
+
+
 </html>

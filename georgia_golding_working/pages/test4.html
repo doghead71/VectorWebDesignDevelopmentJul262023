@@ -1,0 +1,128 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/styles.css" type="text/css" rel="stylesheet">
+        <style>
+            body
+            {
+                box-sizing: border-box;
+            }
+           .flexy
+           {
+            display: flex;
+            flex-direction: row;
+            border-color: crimson;
+
+           }
+           .col1 
+           {
+            width: 33%;
+            float: left;
+            padding-bottom: 5%;
+           }
+           .col2
+           {
+            width: 33%;
+            justify-content: center;
+            padding-bottom: 5%;
+           }
+           .col3
+           {
+            width: 33%;
+            float: right;
+            padding-bottom: 5%;
+           }
+           .mid
+           {
+            float: left;
+            width: 68%;
+            padding-bottom: 5%;
+            border: 2px solid;
+            border-color: black ;
+           }
+           
+            .m1
+            {
+            width: 30%;
+            float: left;      
+           }
+           .m2
+           {
+            width: 30%;
+           }
+           .m3
+           {
+            width: 30%;
+            float: right;      
+           }
+        
+           .bottom
+           {
+            float: right;
+            width: 30%;
+           }
+           div
+           {
+            border-color: black;
+            height: 100px;
+           }
+
+        </style>
+        <title> Layout </title>
+
+    </head>
+    <body>
+        <div id="navigation">
+            <nav>
+                <!-- Logo -->
+                <div class="logo">
+                <img src="../IMG/logo.png" alt="logo">
+                </div>
+                <!-- Links -->
+                <ul class="nav_links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/test2.html">Display Example</a></li>
+                <li><a href="../pages/test3.html">Flex Example</a></li>
+                <li><a href="#">Layout</a></li>
+                <li><a href="../pages/test5.html">Z Layout</a></li>
+                </ul>
+            </nav>
+         </div>  
+
+        <div id="top" class="flexy">
+         <div class="col1">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+         </div>
+         <div class ="col2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+         </div>
+         <div class ="col3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+         </div>
+        </div>
+
+        <div class="mid" class="flexy">   
+            Orgin
+            <div class="m1" style="background-color: coral;">
+                One
+            </div>
+            <div class="m2" style="background-color: azure;">
+                Two
+            </div>
+            <div class="m3" style="background-color: darkgoldenrod;">
+                Three
+            </div>
+        </div>    
+
+        <div class="bottom" class="flexy" >
+            <div class="b1" style="background-color: blue;">
+                Four
+            </div>
+            <div class="b2" style="background-color: aqua;">
+                Five
+            </div>
+        </div>  
+
+     </body>
+</html>     
