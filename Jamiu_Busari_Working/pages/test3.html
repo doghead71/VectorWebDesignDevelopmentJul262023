@@ -62,7 +62,7 @@
         TEST ME - NAVIGATE and flex display</h1>
 
     <h2> Flexible Example</h2>
-    <button onclick="document.getElementById('three').innerHTML='3'">Click Me</button>
+    <button onclick="document.getElementById('Three').innerHTML='3'">Click Me</button>
     <button onclick="toggleThree()"> Toggle</button>
     <div id="flexy" class="flex_container">
         <div id="One">One</div>
@@ -79,7 +79,13 @@
     </video>
     <script>
         function toggleThree() {
-            document.getElementById('three').innerHTML='3'
+            if(document.getElementById('Three').innerHTML=='Three') {
+                //do action if condition true
+                document.getElementById('Three').innerHTML='3';
+            } else{ //condition is false
+                //do action if condition is false
+                document.getElementById('Three').innerHTML='Three';
+            }
         }
     </script>
 </body>
