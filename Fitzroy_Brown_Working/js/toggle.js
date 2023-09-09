@@ -18,6 +18,16 @@ function toggleTwo() {
     }
 }
 
+function toggleThree() {
+    let div3 = document.getElementById('three');
+
+    if (div3.innerHTML == 'Three') {
+        div3.innerHTML='3';
+    } else {
+        div3.innerHTML='Three';
+    }
+}
+
 function toggleFour() {
     let div4 = document.getElementById('four');
 
