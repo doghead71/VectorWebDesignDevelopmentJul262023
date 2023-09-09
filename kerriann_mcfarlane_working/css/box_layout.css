@@ -5,60 +5,11 @@ body {
 }
 
 
-/*.Welcome Back img {
-    max-width: 70%;
-    justify-content: center;
-}
-
-
-Welcome {
+.primary {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 5px;
 }
-
-
-.Greatness quote img {
-    max-width: 30%;
-    justify-content: left;
-}
-
-
-.Greatness quote {
-    display: flex;
-}
-
-
-
-
-Rewards icon {
-    display: flex;
-}
-*/
-
-
-/* Secondary section*/
-
-.Secondary section {
-    padding: 80px 0 80px;
-}
-
-.Secondary section .section {
-    flex: 0 0 50%;
-    max-width: 50%;
-    padding: 0 60%;
-    text-align: center;
-}
-
-.section-title .Greatness quote img {
-    max-width: 280%;
-    width: 50%;
-}
-
-.section-title .Rewards icon img {
-    max-width: 280%;
-    width: 50%;
-}
-
 
 .main_container {
     display: flex;
@@ -78,8 +29,7 @@ Rewards icon {
 
 .main_container_inner_left {
     justify-content: space-between;
-    padding-right: 100px;
-    width: 30%;
+    /*padding-right: 100px;*/
 
 }
 
@@ -87,6 +37,8 @@ Rewards icon {
 
 .main_container_inner_right {
     justify-content: space-between;
+    /*padding-left: 50px;*/
+
 
 
 
@@ -99,10 +51,11 @@ Rewards icon {
 
 
 h2 {
-    clear: both;
+       clear: both;
 }
 
 h3 {
+    text-align: right;
     clear: both;
 }
 

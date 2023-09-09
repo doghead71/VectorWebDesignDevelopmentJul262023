@@ -3,6 +3,7 @@
 
 <head>
     <link href="../css/styles.css" type="text/css" rel="stylesheet">
+    <link href="../css/box_layout.css" type="text/css" rel="stylesheet">
 </head>
 <style>
     .flex_container {
@@ -47,6 +48,11 @@
     #Four {
         order: 4;
     }
+
+    button {
+        margin: 5px;
+        font-size: medium;
+    }
 </style>
 
 <body>
@@ -72,6 +78,9 @@
     <h1> Test me - Navigate and flex display</h1>
 
     <h2> Flexible example</h2>
+    <button onclick="document.getElementById('Three').innerHTML='3'">Cick Me</button>
+    <button onclick="toggleThree()">Toggle 3</button>
+    <button onclick="toggleFive()">Toggle 5</button>
 
     <div id="flexy" class="flex_container">
         <div id="One">One</div>
@@ -81,21 +90,43 @@
         <div id="Five">Five</div>
 
     </div>
+
+
+
     <h1>Audio</h1>
     <audio controls>
         <source src="../audio/sample-15s.mp3" type="audio/mp3">
         Your browser does not support the audio tag.
     </audio>
 
-    
 
-    
+
+
     <h1>Video</h1>
     <video width="320px" height="240px" controls autoplay muted>
         <source src="../video/Skye Turner.mp4" type="video/mp4">
         video format not supported
     </video>
 
+
+    <script>
+        function toggleThree() {
+            let div3 = document.getElementById('Three')
+
+            if (div3.innerHTML == 'Three') {
+                //do action if condition true
+                div3.innerHTML = '3';
+            } else {//condition is false
+                //do action if condition false
+                div3.innerHTML = 'Three';
+            }
+        }
+
+    </script>
+
+    <script src="../js/toggle.js">
+
+    </script>
 
 </body>
 
