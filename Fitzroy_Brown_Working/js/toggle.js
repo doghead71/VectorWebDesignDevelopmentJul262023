@@ -50,12 +50,41 @@ function toggleFive() {
 
 function printStars(numStars) {
     let starString = "";
-/* loop will execute for values of count 0,1,2....numStars*/
+/* loop will execute for values of count 0,1,2....numStars
+    count++ is increment operator i.e count = count +1*/
     for(let count = 0; count < numStars; count++) {
         starString = starString.concat("*");
         console.log(starString);
-        alert(starString);
+        //alert(starString);
     }
     return starString;
 }
 
+function toggle(divId) {
+    let divElement = document.getElementById(divId);
+    let num = convertIdToNumeric(divId.toLowerCase());
+
+    if(divElement.innerHTML.toLowerCase() == divId.toLowerCase()) {
+        divElement.innerHTML = num
+        .toString() 
+        .concat("(")
+        .concat(printStars(num))
+        .concat(")");
+    } else {
+        divElement.innerHTML = divId.toUpperCase();
+    }
+}
+
+function convertIdToNumeric(id) {
+    let num = 0;
+
+    switch(id) {
+        case "one": num = 1; break;
+        case "two": num = 2; break;
+        case "three": num = 3; break;
+        case "four": num = 4; break;
+        case "five": num = 5; break;
+        default: num = 0;
+    }
+    return num;
+}
