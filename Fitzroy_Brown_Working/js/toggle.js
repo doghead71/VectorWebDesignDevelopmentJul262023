@@ -1,4 +1,4 @@
-function toggleOne() {
+/*function toggleOne() {
     let div1 = document.getElementById('one');
 
     if (div1.innerHTML == 'One') {
@@ -46,7 +46,7 @@ function toggleFive() {
     } else {
         div5.innerHTML='Five';
     }
-}
+}*/
 
 function printStars(numStars) {
     let starString = "";
