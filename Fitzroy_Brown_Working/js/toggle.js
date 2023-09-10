@@ -52,7 +52,7 @@ function printStars(numStars) {
     let starString = "";
 /* loop will execute for values of count 0,1,2....numStars*/
     for(let count = 0; count < numStars; count++) {
-        starString = starString.concat("+");
+        starString = starString.concat("*");
         console.log(starString);
         alert(starString);
     }
