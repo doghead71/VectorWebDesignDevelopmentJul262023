@@ -10,21 +10,67 @@
 
 <body>
 
-    <h1></h1>
-    <p> 
-    </p>
+    <h1>PRODUCTS</h1>
+    <ol>
+        <li>Trestle tables</li>
+        <li>Folden wooden chairs</li>
+        <li>Tents</li>
+        <li>Round tables</li>
+        <li>Chiavari chairs</li>
+        <li>Love seats</li>
+        <li>Barriers</li>
+        <li>Trussing</li>
+        <li>Lights</li>
+        <li>Stages</li>
+        <li>Portable toilets</li>
+        <li>Food warmers</li>
+    </ol>
 
-    <h2></h2>
+
+    <h2>SERVICES</h2>
+    <ol>
+        <li>Events & Decor
+            <ol>
+                <li>weddings</li>
+                <li>parties</li>
+                <li>social events</li>
+                <li>concerts</li>
+            </ol>
+        </li>
+
+        <li>Equipment Rentals
+            <ol>
+                <li>stages</li>
+                <li>lightings</li>
+                <li>sounds</li>
+            </ol>
+        </li>
+
+        <li>Rentals
+            <ol>
+                <li>chairs</li>
+                <li>tents</li>
+                <li>tables</li>
+                <li>barriers</li>
+                <li>food warmers</li>
+
+            </ol>
+        </li>
+
+    </ol>
+
+
+    <h3>PRICING</h3>
 
 
 
 
-<Footer>
-    <p>Author: Kerri-ann McFarlane</p>
+    <Footer>
+        <p>Author: Kerri-ann McFarlane</p>
 
-    <p>&copy;2022 RJR Events & Decor. All rights reserved</p>
-        
-</Footer>
+        <p>&copy;2022 RJR Events & Decor. All rights reserved</p>
+
+    </Footer>
 
 </body>
 
