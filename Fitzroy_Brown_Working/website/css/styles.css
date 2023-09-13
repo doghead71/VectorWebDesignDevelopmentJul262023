@@ -8,3 +8,90 @@ body {
     padding: 0px;
     border: 0px outset rgb(0, 17, 255);
 }
+
+.logo {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+#navigation {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nav a:link {
+    text-decoration: none;
+    color: #2507be;
+    width: 135px;
+    float: inline-end;
+    background-color: #ffe4c4;
+    margin-left: 20px;
+    padding: 0px;
+    border: 2px outset #bb04bb;
+}
+
+#nav a:visited {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#nav a:hover {
+    color: #08a956;
+    text-decoration: underline;
+}
+
+#nav a:active {
+    text-decoration: none;
+}
+
+.nav_links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav_links a {
+    padding: 20px 15px;
+    display: inline-block;
+}
+
+#navigation {
+    margin-bottom: 15px;
+}
+
+
+
+/*allows navigation bar on small browsers to display as centered logo on top, followed by centered navigation links*/
+@media(max-width: 650px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+ /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+ @media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+    
+footer {
+    background-color: #189dc6;
+    text-align: left;
+    padding: 0px;
+}
