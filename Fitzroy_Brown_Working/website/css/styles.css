@@ -1,0 +1,10 @@
+body {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #cbc8c8;
+    font-family: "Times New Roman";
+    margin: 0;
+    padding: 0px;
+    border: 0px outset rgb(0, 17, 255);
+}
