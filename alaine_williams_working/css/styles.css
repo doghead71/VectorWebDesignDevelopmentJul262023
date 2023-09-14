@@ -118,6 +118,7 @@ background-color: rgba(52, 51, 51, 0.412);
         text-transform: capitalize; 
         text-align: center;
         font-size: larger;
+        padding: 10px;
     }
     
     .navigation {
