@@ -1,26 +1,52 @@
 <!DOCTYPE html>
     <html>
         <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="../css/styles.css">
             <style>
-                p { color:blue;}
-                p.exaample_one {display: none;}
-                p.exaample_two {display: inline;}
-                p.exaample_three {display: block;}
-                p.exaample_four {display: inline-block;}
+                p { color:blue;
+                height: 26px;
+                }
+                p.example_one {display: none;}
+                p.example_two {display: inline;}
+                p.example_three {display: block;}
+                p.example_four {display: inline-block;}
             </style>
+
         </head>
         <body>
             <div class="navigation">
                 <nav>
-                    <a href="../index.html">HOME</a>
-                    <a href="#">Display Example</a>
-                    <a href="../pages/test3.html">Flex Example</a>
+                    <div class="logo">
+                        <img src="../img2/Dezign-Touches-Logo-trans.png" height="400 px" alt="logo">
+                    </div>
+                    <ul class="nav_links">
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="#">Display Example</a></li>
+                        <li><a href="../pages/test3.html">Flex Example</a></li>
+                    </ul>
                 </nav>
             </div>
             <h1> TEST ME - NAVIGATE AND DISPLAY</h1>
+
+            <h2>Testing display none</h2>
             <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet,  <p class="example_one">ALAINE WILLIAMS!!</p> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+            <h2>Testing display inline</h2>
+            <div>
+                Lorem ipsum dolor sit amet, <p class="example_two">ALAINE WILLIAMS!!</p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+            <h2>Testing display block</h2>
+            <div>
+                Lorem ipsum dolor sit amet, <p class="example_three">ALAINE WILLIAMS!!</p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+
+            <h2>Testing display inline-block</h2>
+            <div>
+                Lorem ipsum dolor sit amet, <p class="example_four">ALAINE WILLIAMS!!</p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </div>
         </body>
     </html>
