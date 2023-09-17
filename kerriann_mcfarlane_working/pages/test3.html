@@ -29,6 +29,14 @@
         font-size: 36px;
     }
 
+    #form_example > div {
+        border: 2px;
+        border-style: groove;
+        border-radius: 5%;
+        border-color: blue;
+        padding: 15px;
+    }
+
     #One {
         order: 3;
         flex-grow: 3;
@@ -85,7 +93,7 @@
     <button onclick="toggleTwo()">Toggle 2</button>
     <button onclick="toggleFour()">Toggle 4</button>
     <button onclick="printStars(5)"> Test * </button>
-    
+
 
 
 
@@ -97,6 +105,18 @@
         <div id="Five">Five</div>
 
     </div>
+
+    <div id="form_example" class="flex_container">
+        <h3>Contact us</h3>
+        <form action="/proceesAction.html" id="form_container" method="post" onsubmit="return vaidateform()">
+            <label for="email">Email:</label> <br>
+            <input type="email" id="email" placeholder="Enter email" required>
+            <br><br>
+            <label for="comment">Comments</label> <br />
+            <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Enter comments here"></textarea>
+        </form>
+    </div>
+</div>
 
 
 
@@ -129,6 +149,17 @@
             }
         }
 
+
+        function validateForm() {
+            let comments = document.forms("form_container")("comments") .value;
+            if(comments.length < 10){
+                alert("Comments should be 10 or more characters");
+                return false;
+
+            }
+            return true;
+
+        }
     </script>
 
     <script src="../js/toggle.js">
