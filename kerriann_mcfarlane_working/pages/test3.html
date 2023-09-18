@@ -56,16 +56,14 @@
         font-size: medium;
     }
 
-    #form_example > div {
+    #form_example>div {
         border: 2px;
         border-style: groove;
         border-radius: 5%;
         border-color: blue;
-    
+        padding: 15px;
+
     }
-
-
-
 </style>
 
 <body>
@@ -114,16 +112,15 @@
         <div>
             <h3>Contact Us</h3>
             <form id="form_container">
-                <label for="email">Email:</label>
-                <input 
-                type="text" 
-                id="email" 
-                name="email" 
-                placeholder="Enter email" 
-                />
+                <label for="email">Email:</label> <br />
+                <input type="text" id="email" name="email" placeholder="Enter email" />
+                <br /><br />
+
+                <label for="comments">Comments</label> <br />
+                <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Enter comments here">
+                </textarea> 
             </form>
         </div>
-
     </div>
 
 
