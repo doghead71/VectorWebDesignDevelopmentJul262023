@@ -111,12 +111,15 @@
     <div id="form_example" class="flex_container">
         <div>
             <h3>Contact Us</h3>
-            <form id="form_container">
+            <form action="/processAction.html" id="form_container">
                 <label for="email">Email:</label> <br />
                 <input type="text" id="email" name="email" placeholder="Enter email" />
                 <br /><br />
                 <label for="comments">Comments</label> <br />
-                <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Enter comments here"></textarea> 
+                <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Enter comments here"
+                ></textarea>
+                <br /><br />
+                <input type="submit" value="Submit" />
             </form>
         </div>
     </div>
