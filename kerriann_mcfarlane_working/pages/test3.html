@@ -55,6 +55,17 @@
         margin: 5px;
         font-size: medium;
     }
+
+    #form_example > div {
+        border: 2px;
+        border-style: groove;
+        border-radius: 5%;
+        border-color: blue;
+    
+    }
+
+
+
 </style>
 
 <body>
@@ -99,13 +110,20 @@
         <div id="Five">Five</div>
     </div>
 
-    <div id="form_example">
-        <h3>Contact Us</h3>
-        <form id="form_container">
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" placeholder="Enter email">
+    <div id="form_example" class="flex_container">
+        <div>
+            <h3>Contact Us</h3>
+            <form id="form_container">
+                <label for="email">Email:</label>
+                <input 
+                type="text" 
+                id="email" 
+                name="email" 
+                placeholder="Enter email" 
+                />
+            </form>
+        </div>
 
-        </form>
     </div>
 
 
