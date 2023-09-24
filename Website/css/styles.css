@@ -35,6 +35,10 @@ nav {
     list-style-type: none;
 }
 
+.nav_links a{
+    padding: 20px;
+}
+
 
 .logo {
     display: inline-block;
@@ -48,6 +52,42 @@ nav {
 }
 
 
+.heading1 h1{
+    align-items: center;
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    align-items: center;
+    text-align: center;
+    color: crimson;  
+}
+
+
+#img_container{
+    float:left;
+}
+
+
+.Wedding{
+    clear: both;
+    margin-top: 20px;
+    padding-top: 30px;
+    
+}
+
+
+
+#img_container1{
+    float:left;
+    padding: 25px;
+}
+
+#img_container2{
+    float:right;
+    padding: 25px;
+}
 
     
 
@@ -109,7 +149,11 @@ nav {
 
 
 
-
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 
 
