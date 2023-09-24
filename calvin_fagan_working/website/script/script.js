@@ -37,3 +37,22 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+function openNav() {
+  document.getElementById("sidemenu").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("sidemenu").style.width = "0";
+}
+
+function validateForm() {
+  let x = document.forms["myForm"]["name"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+  else {
+    alert("Information submitted successfully");
+  }
+}
