@@ -111,13 +111,13 @@
     <div id="form_example" class="flex_container">
         <div>
             <h3>Contact Us</h3>
-            <form action="/processAction.html" id="form_container">
+            <form action="/processAction.html" id="form_container" method="post" onsubmit="return validateForm()">
                 <label for="email">Email:</label> <br />
-                <input type="text" id="email" name="email" placeholder="Enter email" />
+                <input type="email" id="email" name="email" placeholder="Enter email" required />
                 <br /><br />
                 <label for="comments">Comments</label> <br />
                 <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Enter comments here"
-                ></textarea>
+                    required></textarea>
                 <br /><br />
                 <input type="submit" value="Submit" />
             </form>
@@ -157,14 +157,13 @@
 
 
         function validateForm() {
-            let comments = document.forms("form_container")("comments").value;
-            if (comments.length < 10) {
+            let comments = document.forms["form_container"]["comments"].value;
+            if(comments.length < 10) {
                 alert("Comments should be 10 or more characters");
                 return false;
-
             }
-            return true;
 
+            return true;
         }
     </script>
 
