@@ -6,6 +6,15 @@
     <title>Frequently asked questions</title>
     <link href="../css/styles.css" type="text/css" rel="stylesheet">
     <style>
+        #form_questionaire>div {
+            border: 5px;
+            border-style: groove;
+            border-radius: 5%;
+            border-color: blue;
+            padding: 20px;
+
+        }
+
         #form_example>div {
             border: 2px;
             border-style: groove;
@@ -49,16 +58,21 @@
             <p>Please complete the following form below so we can assist you with your upcoming event</p>
             <p>1. Questions about the working relationships</p>
             <form action="/processAction.html" id="form_container" method="post" onsubmit="return validateForm()">
-                <label for="working relationships">a. Have you worked with an event planner before? If so, how was that experience? What went well and what did not?</label> <br />
+                <label for="working relationships">a. Have you worked with an event planner before? If so, how was that
+                    experience? What went well and what did not?</label> <br />
                 <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
                 <br /><br />
-                <label for="working relationships">b. How hands-on or hands-off would you like to be in the process of planning your event? Are you set on your own ideas? Do you expect to work collaboratively or hand most things off to me?</label> <br />
+                <label for="working relationships">b. How hands-on or hands-off would you like to be in the process of
+                    planning your event? Are you set on your own ideas? Do you expect to work collaboratively or hand
+                    most things off to me?</label> <br />
                 <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
                 <br /><br />
-                <label for="working relationships">c. What is the most important thing to you in a working relationship with an event planner? What do you need most from me.</label> <br />
+                <label for="working relationships">c. What is the most important thing to you in a working relationship
+                    with an event planner? What do you need most from me.</label> <br />
                 <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
                 <br /><br />
-                <label for="working relationships">d. What is your preferred method of contact? Are there any best hours to reach you?</label> <br />
+                <label for="working relationships">d. What is your preferred method of contact? Are there any best hours
+                    to reach you?</label> <br />
                 <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
                 <br /><br />
                 <p>2. Questions about event specifics</p>
@@ -72,13 +86,15 @@
                 <label for="working relationships">c. How many people do you plan to invite?</label> <br />
                 <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
                 <br /><br />
-                <label for="working relationships">d. Do any of your guests have personal challenges the event will need to accommodate (e.g. disability access)?</label> <br />
+                <label for="working relationships">d. Do any of your guests have personal challenges the event will need
+                    to accommodate (e.g. disability access)?</label> <br />
                 <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
                 <br /><br />
                 <label for="working relationships">e. What food options would you like to offer guests?</label> <br />
                 <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
                 <br /><br />
-                <label for="working relationships">f. What beverage options would you like to offer guests?</label> <br />
+                <label for="working relationships">f. What beverage options would you like to offer guests?</label>
+                <br />
                 <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
                 <br /><br />
                 <label for="working relationships">g. What types of vendors will you need for the event?</label> <br />
@@ -112,7 +128,7 @@
                 <label for="vendor14">Bartender</label> <br />
                 <input type="checkbox" id="vendor15" name="vendor15" value="Rentals" />
                 <label for="vendor15">Rentals</label> <br />
-                <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Enter comments here"required>
+                <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Enter comments here" required>
                 </textarea><br />
                 <input type="checkbox" id="vendor16" name="vendor16" value="Invitations" />
                 <label for="vendor16">Invitations</label> <br />
@@ -122,71 +138,16 @@
                 <label for="vendor18">Florist</label> <br />
                 <input type="checkbox" id="vendor19" name="vendor19" value="Other" />
                 <label for="vendor19">Other</label> <br />
-                <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Enter comments here"required>
+                <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Enter comments here" required>
                 </textarea><br />
-
                 <input type="submit" value="Submit" />
             </form>
         </div>
     </div>
 
+<br /><br />
 
 
-    <div class="accordion">
-        <div class="accordion__question">
-            <p>What types of vendors will you need for the event?
-            </p>
-            <ul>
-                <li>Photographer</li>
-                <li>Caterer</li>
-                <li>Videographer</li>
-                <li>Baker</li>
-                <li>Attire</li>
-                <li>Band</li>
-                <li>DJ</li>
-                <li>Transportation</li>
-                <li>MC</li>
-                <li>Lighting</li>
-                <li>Photobooth</li>
-                <li>Accommodations</li>
-                <li>Bartender</li>
-                <li>Rentals - tables, chairs, chair covers</li>
-                <li>Invitations</li>
-                <li>Decor</li>
-                <li>Florist</li>
-                <li>Other (please list)</li>
-            </ul>
-
-        </div>
-
-        <div class="accordion__answer"></div>
-        <p></p>
-
-
-    </div>
-
-    </div>
-
-    </div>
-
-    </div>
-
-    </div>
-
-    </div>
-
-    </div>
-
-    </div>
-
-    </div>
-
-    </div>
-    </div>
-    </div>
-
-
-    <br /><br />
 
     <div id="form_example" class="flex_container">
         <div>
