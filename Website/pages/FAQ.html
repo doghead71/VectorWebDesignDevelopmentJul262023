@@ -12,6 +12,7 @@
             border-radius: 5%;
             border-color: blue;
             padding: 20px;
+            background-color: chocolate;
 
         }
 
@@ -21,6 +22,7 @@
             border-radius: 5%;
             border-color: blue;
             padding: 15px;
+            background-color: aqua;
 
         }
     </style>
@@ -98,6 +100,7 @@
                 <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
                 <br /><br />
                 <label for="working relationships">g. What types of vendors will you need for the event?</label> <br />
+                <p>Please tick all that applies</p>
                 <input type="checkbox" id="vendor1" name="vendor1" value="Photographer" />
                 <label for="vendor1">Photographer</label> <br />
                 <input type="checkbox" id="vendor2" name="vendor2" value="Caterer" />
@@ -128,8 +131,7 @@
                 <label for="vendor14">Bartender</label> <br />
                 <input type="checkbox" id="vendor15" name="vendor15" value="Rentals" />
                 <label for="vendor15">Rentals</label> <br />
-                <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Enter comments here" required>
-                </textarea><br />
+                <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Enter comments here" required></textarea><br />
                 <input type="checkbox" id="vendor16" name="vendor16" value="Invitations" />
                 <label for="vendor16">Invitations</label> <br />
                 <input type="checkbox" id="vendor17" name="vendor17" value="Decor" />
@@ -138,8 +140,7 @@
                 <label for="vendor18">Florist</label> <br />
                 <input type="checkbox" id="vendor19" name="vendor19" value="Other" />
                 <label for="vendor19">Other</label> <br />
-                <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Enter comments here" required>
-                </textarea><br />
+                <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Enter comments here" required></textarea><br />
                 <input type="submit" value="Submit" />
             </form>
         </div>
@@ -160,6 +161,10 @@
                 <label for="email">Email:</label> <br />
                 <input type="email" id="email" name="email" placeholder="Enter email" required />
                 <br /><br />
+                <label for="phone"> Enter a Tel #:</label> <br />
+                <input type="tel" id="phone" name="phone" placeholder="1-876-230-4850" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}[0-9]{4}" required />
+                <br /><br />
+                <small>Format 1-876-230-4850</small> <br /><br />
                 <label for="comments">Comments</label> <br />
                 <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Enter comments here"
                     required></textarea>
