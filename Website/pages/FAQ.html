@@ -5,9 +5,18 @@
 
     <title>Frequently asked questions</title>
     <link href="../css/styles.css" type="text/css" rel="stylesheet">
+    <style>
+        #form_example>div {
+            border: 2px;
+            border-style: groove;
+            border-radius: 5%;
+            border-color: blue;
+            padding: 15px;
 
-
+        }
+    </style>
 </head>
+
 
 <body>
 
@@ -33,149 +42,166 @@
 
     </div>
 
-    <h1>Event planner questionnaire to clients</h1>
-    <div class="layout"> 1. Questions about the working relationship
-        <div class="accordion">
-            <div class="accordion__question">
-                <p>Have you worked with an event planner before? If so, how was that experience? What went well and what
-                    did not?</p>
-            </div>
 
-            <div class="accordion__answer"></div>
-            <p></p>
-
-            <div class="accordion">
-                <div class="accordion__question">
-                    <p>How hands-on or hands-off would you like to be in the process of planning your event? Are you set
-                        on your own ideas? Do you expect to work collaboratively or hand most things off to me?</p>
-                </div>
-
-                <div class="accordion__answer"></div>
-                <p></p>
-
-
-                <div class="accordion">
-                    <div class="accordion__question">
-                        <p>What is the most important thing to you in a working relationship with an event planner? What
-                            do you need most from me?</p>
-                    </div>
-
-                    <div class="accordion__answer"></div>
-                    <p></p>
-
-
-
-                    <div class="accordion">
-                        <div class="accordion__question">
-                            <p>What is your preferred method of contact? Are there any best hours to reach you?</p>
-                        </div>
-
-                        <div class="accordion__answer"></div>
-                        <p></p>
-
-
-                        <div class="layout"> 2. Questions about event specifics
-                            <div class="accordion">
-                                <div class="accordion__question">
-                                    <p>What type of event are you planning? What is the occasion?</p>
-                                </div>
-
-                                <div class="accordion__answer"></div>
-                                <p></p>
+    <div id="form_questionaire" class="flex_container">
+        <div>
+            <h1>Event planner questionnaire to clients</h1> <br />
+            <p>Please complete the following form below so we can assist you with your upcoming event</p>
+            <p>1. Questions about the working relationships</p>
+            <form action="/processAction.html" id="form_container" method="post" onsubmit="return validateForm()">
+                <label for="working relationships">a. Have you worked with an event planner before? If so, how was that experience? What went well and what did not?</label> <br />
+                <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
+                <br /><br />
+                <label for="working relationships">b. How hands-on or hands-off would you like to be in the process of planning your event? Are you set on your own ideas? Do you expect to work collaboratively or hand most things off to me?</label> <br />
+                <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
+                <br /><br />
+                <label for="working relationships">c. What is the most important thing to you in a working relationship with an event planner? What do you need most from me.</label> <br />
+                <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
+                <br /><br />
+                <label for="working relationships">d. What is your preferred method of contact? Are there any best hours to reach you?</label> <br />
+                <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
+                <br /><br />
+                <p>2. Questions about event specifics</p>
+                <label for="working relationships">a. What type of event are you planning? What is the occasion?</label>
+                <br />
+                <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
+                <br /><br />
+                <label for="working relationships">b. Do you have an event location/venue yet?</label> <br />
+                <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
+                <br /><br />
+                <label for="working relationships">c. How many people do you plan to invite?</label> <br />
+                <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
+                <br /><br />
+                <label for="working relationships">d. Do any of your guests have personal challenges the event will need to accommodate (e.g. disability access)?</label> <br />
+                <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
+                <br /><br />
+                <label for="working relationships">e. What food options would you like to offer guests?</label> <br />
+                <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
+                <br /><br />
+                <label for="working relationships">f. What types of vendors will you need for the event?</label> <br />
+                <input type="answer" id="answer" name="answer" placeholder="Enter answer" required />
+                <br /><br />
 
 
 
-                                <div class="accordion">
-                                    <div class="accordion__question">
-                                        <p>Do you have an event location/venue yet?</p>
-                                    </div>
-
-                                    <div class="accordion__answer"></div>
-                                    <p></p>
-
-
-                                    <div class="accordion">
-                                        <div class="accordion__question">
-                                            <p>How many people do you plan to invite?</p>
-                                        </div>
-
-                                        <div class="accordion__answer"></div>
-                                        <p></p>
-
-
-
-                                        <div class="accordion">
-                                            <div class="accordion__question">
-                                                <p>Do any of your guests have personal challenges the event will need to
-                                                    accommodate (e.g. disability access)?</p>
-                                            </div>
-
-                                            <div class="accordion__answer"></div>
-                                            <p></p>
-
-
-
-                                            <div class="accordion">
-                                                <div class="accordion__question">
-                                                    <p>What food options would you like to offer guests?</p>
-                                                </div>
-
-                                                <div class="accordion__answer"></div>
-                                                <p></p>
-
-
-
-                                                <div class="accordion">
-                                                    <div class="accordion__question">
-                                                        <p>What types of vendors will you need for the event?</p>
-                                                        <ul>
-                                                            <li>Photographer</li>
-                                                            <li>Caterer</li>
-                                                            <li>Videographer</li>
-                                                            <li>Baker</li>
-                                                            <li>Attire</li>
-                                                            <li>Band</li>
-                                                            <li>DJ</li>
-                                                            <li>Transportation</li>
-                                                            <li>MC</li>
-                                                            <li>Lighting</li>
-                                                            <li>Photobooth</li>
-                                                            <li>Accommodations</li>
-                                                            <li>Bartender</li>
-                                                            <li>Rentals - tables, chairs, chair covers</li>
-                                                            <li>Invitations</li>
-                                                            <li>Decor</li>
-                                                            <li>Florist</li>
-                                                            <li>Other (please list)</li>
-                                                        </ul>
-
-                                                    </div>
-
-                                                    <div class="accordion__answer"></div>
-                                                    <p></p>
-
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
+                <input type="submit" value="Submit" />
+            </form>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="accordion">
+        <div class="accordion__question">
+            <p>What types of vendors will you need for the event?
+            </p>
+            <ul>
+                <li>Photographer</li>
+                <li>Caterer</li>
+                <li>Videographer</li>
+                <li>Baker</li>
+                <li>Attire</li>
+                <li>Band</li>
+                <li>DJ</li>
+                <li>Transportation</li>
+                <li>MC</li>
+                <li>Lighting</li>
+                <li>Photobooth</li>
+                <li>Accommodations</li>
+                <li>Bartender</li>
+                <li>Rentals - tables, chairs, chair covers</li>
+                <li>Invitations</li>
+                <li>Decor</li>
+                <li>Florist</li>
+                <li>Other (please list)</li>
+            </ul>
+
+        </div>
+
+        <div class="accordion__answer"></div>
+        <p></p>
+
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+
+    <br /><br />
+
+    <div id="form_example" class="flex_container">
+        <div>
+            <h2>Clients Contact Details</h2>
+            <P>Leave us your contact details in the form below and we would get back to you within 24 hours.</P>
+            <form action="/processAction.html" id="form_container" method="post" onsubmit="return validateForm()">
+                <label for="name">Name</label> <br />
+                <input type="name" id="name" name="name" placeholder="Enter name" required />
+                <br /><br />
+                <label for="email">Email:</label> <br />
+                <input type="email" id="email" name="email" placeholder="Enter email" required />
+                <br /><br />
+                <label for="comments">Comments</label> <br />
+                <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Enter comments here"
+                    required></textarea>
+                <br /><br />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
+
+
+
+    <script>
+        function validateForm() {
+            let comments = document.forms["form_container"]["comments"].value;
+            if (comments.length < 10) {
+                alert("Comments should be 10 or more characters");
+                return false;
+            }
+
+            return true;
+        }
+
+        function validateForm() {
+            let name = document.forms["form_container"]["name"].value;
+            if (name.length < 10) {
+                alert("Name should be 10 or more characters");
+                return false;
+            }
+
+            return true;
+        }
+
+    </script>
+
+    <script src="../js/toggle.js">
+
+    </script>
 
 
     <Footer>
