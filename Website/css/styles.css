@@ -11,12 +11,10 @@ body {
 }
 
 
-
-
 #navigation {
     border-style: solid;
     border-width: 1px;
-    text-align: left;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: darkgoldenrod;
     font-size: large;
@@ -38,13 +36,10 @@ nav {
 }
 
 
-
-
-
 .logo {
     display: inline-block;
-    width: 125px;
-    height: 125px;
+    width: 50px;
+    height: 50px;
 }
 
 .logo img {
@@ -52,3 +47,77 @@ nav {
     height: 100%;
 }
 
+
+
+    
+
+#form_questionaire>div {
+    border: 5px;
+    border-style: groove;
+    border-radius: 5%;
+    border-color: blue;
+    padding: 20px;
+    background-color: chocolate;
+
+}
+
+#form_example>div {
+    border: 2px;
+    border-style: groove;
+    border-radius: 5%;
+    border-color: blue;
+    padding: 15px;
+    background-color: aqua;
+
+}
+
+
+
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    /*grid: auto*/
+    ;
+    /*flex-direction: row*/
+    ;
+    /*flex-wrap: wrap*/
+    ;
+    border: 1px;
+    background: grey;
+    padding: none;
+}
+
+
+
+.Thomas Gage {
+    justify-content: space-between;
+    /*padding-right: 100px;*/
+
+}
+
+
+.Gerard Miller {
+    justify-content: space-between;
+    /*padding-left: 50px;*/
+}
+
+
+.Dr Matt Hux {
+    justify-content: space-between;
+    /*padding-left: 50px;*/
+}
+
+
+
+
+
+
+
+/* allow navigation bars on small browsers to display as centered logo on top, followed by centered navigation links */
+@media(max-width: 650px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
