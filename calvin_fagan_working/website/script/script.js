@@ -1,10 +1,10 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
+  document.getElementById("sidemenu").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("sidemenu").style.width = "0";
+}
 
   /*Slide Show*/
   let slideIndex = 1;
@@ -38,21 +38,28 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
-function openNav() {
-  document.getElementById("sidemenu").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("sidemenu").style.width = "0";
-}
 
 function validateForm() {
-  let x = document.forms["myForm"]["name"].value;
-  if (x == "") {
+  let w = document.forms["myForm"]["name"].value;
+  let x = document.forms["myForm"]["number"].value;
+  let y = document.forms["myForm"]["parish"].value;
+  let z = document.forms["myForm"]["subject"].value;
+  if (w == "") {
     alert("Name must be filled out");
     return false;
   }
-  else {
+  else if (x == ""){
+    alert("You Forgot your number");
+    return false;
+  }
+  else if (y == "") {
+    alert("remeber to select you location");
+    return false;
+  }else if (z == "") {
+    alert("I don't know how to help you");
+    return false;
+  }else{
     alert("Information submitted successfully");
   }
+
 }

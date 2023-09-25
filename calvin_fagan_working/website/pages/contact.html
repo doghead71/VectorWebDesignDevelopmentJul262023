@@ -40,29 +40,64 @@
 
   </header>
 
-  <main>
-    <div class="container">
+  <contact>
+
+    <div class="contactintro">
+      <h1>Contact Us</h1>
+      <p>
+        At CF Landscaping, we are committed to providing exceptional service and support to our valued customers.
+        Whether you have a question, need assistance, or want to provide feedback, we are here to help. Our dedicated
+        team is readily available to address your inquiries and concerns. We value your input and strive
+        to make your experience with us as seamless and enjoyable as possible.
+      </p>
+      <p>
+
+        Please feel free to reach out to us through the following channels:
+      </p>
+      <p>
+        <b>Customer Support:</b> For immediate assistance, our customer support team is available between 9am and 5pm to
+        answer your questions and provide guidance. you may call us at <a href="tel:+18768947999">+1 (876) 894-7999</a>.
+      </p>
+      <p>
+        <b>Email:</b> You can also reach us via email at <a href="mailto:calofagan@gmail.com">calofagan@gmail.com</a>.
+        We aim to respond to all emails within 3 hours during business hours.
+      </p>
+      <p>
+        <b>Mailing Address:</b> If you prefer traditional correspondence, you can write to us at <br>
+      <p>35a Eastwood Park Rd, Kingston</p> We appreciate your feedback and will respond to your letters as promptly as
+      possible.
+      </p>
+      <p>
+        <b>Feedback</b> Form: For your convenience, we have provided a feedback form below. Simply fill in your details
+        and
+        message, and we will get back to you shortly.
+      </p>
+
+    </div>
+    <div class="formcontainer">
       <form name="myForm" action="../index.html" onsubmit="return validateForm()" method="post">
-        Name: <input type="text" id="name" name="name" placeholder="Your name..">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
 
-        Phone Number: <input type="text" id="number" name="number" placeholder="Phone Number..">
+        <label for="number">Phone Number:</label>
+        <input type="text" id="number" name="number" placeholder="Phone Number..">
 
-        Parish: <select id="parish" name="parish">
+        <label for="parish">Parish:</label>
+        <select id="parish" name="parish">
           <option value="" disabled selected>Select a Parish</option>
           <option value="St. Catherine">St. Catherine</option>
           <option value="St. Andrew">St. Andrew</option>
           <option value="Kingston">Kingston</option>
         </select>
 
-        Subject: <textarea id="subject" name="subject" placeholder="How can we help.." style="height:200px"></textarea>
+        <label for="subject">Subject:</label>
+        <textarea id="subject" name="subject" placeholder="How can we help.." style="height:200px"></textarea>
 
         <input type="submit" value="Submit">
-
       </form>
     </div>
 
-
-  </main>
+  </contact>
 
 
   <footer>
