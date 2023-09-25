@@ -1,18 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
-    <body>
-        <div id="navigation">
-            <nav>
-                <a href="../index.html">Home</a>
-                <a href="./about.html">About</a>
-                <a href="./news.html">News</a>
-                <a href="./photo_gallery.html">Photo Gallery</a>
-                <a href="./video_gallery.html">Video Gallery</a>
-                <a href="#">Contact</a>
-            </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortis Security Services</title>
+
+    <link href="../css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h3>Security Now Securing Your Future</h3>
+        <div id=navigation>
+            <element id="nav">
+                <nav>
+                    <div class="logo">
+                        <!--logo-->
+                        <img src="../img/logo.png" alt="Company Logo">
+                    </div>
+                    <!--links-->
+                    <ul class="nav_links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="./news.html">News</a></li>
+                        <li><a href="./photo_gallery.html">Photo Gallery</a></li>
+                        <li><a href="./video_gallery.html">Video Gallery</a></li>
+                    </ul>
+                </nav>
+            </element>
         </div>
-    </body>
+    </div>
+
+    <div id="form" class="flex_container">
+        <div>
+            <h2>Contact Us</h2>
+            <form action="/processAction.html" id="form_container" method="post" onsubmit="return validateForm()">
+                <label for="name">First Name</label><br />
+                <input type="text" id="fname" name="firstname" placeholder="Enter First Name" required /><br />
+                <label for="name">Last Name</label><br />
+                <input type="text" id="lname" name="lasttname" placeholder="Enter Last Name" required /><br />
+                <lable for="phone number">Phone Number</lable><br />
+                <input type="text" id="phonenum" name="phonenum" placeholder="Enter Phone Number" required /><br />
+                <label for="address1">Street Address</label><br />
+                <input type="text" id="address1" name="address1" placeholder="Enter Street Address" required /><br />
+                <label for="city">City</label><br />
+                <input type="text" id="city" name="city" placeholder="Enter City" required /><br />
+                <lable for="country">Country</lable><br />
+                <input type="text" id="country" name="country" placeholder="Enter Country" required /><br />
+                <label for="email">Email</label><br />
+                <input type="email" id="email" name="email" placeholder="Enter email" required />
+                <br /><br />
+                <label for="comments">Comments</label><br />
+                <textarea id="comments" name="comments" rows="5" cols="43" placeholder="Enter comments here"
+                    required></textarea>
+                <br /><br />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/scripts.js"></script>
+
+    <footer>
+        <p>&copy; 2023 Fortis Security Services</p>
+        <p>Developed by Fitzroy Brown</p>
+    </footer>
+</body>
+
 </html>
