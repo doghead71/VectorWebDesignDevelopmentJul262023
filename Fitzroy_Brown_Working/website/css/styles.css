@@ -59,22 +59,24 @@ nav {
 }
 
 .header {
-   /* padding: 2px;*/
-   top: 0;
-   width: 100%;
+    /* padding: 2px;*/
+    top: 0;
+    width: 100%;
     text-align: 0;
-    background:#c618b7;
+    background: #c618b7;
     color: white;
     font-size: 0;
     position: relative;
-   /* z-index: 2000;*/
-  }
+    /* z-index: 2000;*/
+}
 
 /* Style the logo*/
 .logo {
     display: inline-block;
-    width: 200px;/* Adjust the width as needed*/
-    height: 150px;/* Automatically adjust the height to maintain aspect ratio*/
+    width: 200px;
+    /* Adjust the width as needed*/
+    height: 150px;
+    /* Automatically adjust the height to maintain aspect ratio*/
 }
 
 .logo img {
@@ -194,13 +196,13 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 .video_gallery {
+    float: right;
     display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    align-items: center;
-    justify-content: space-around;
-    max-width: 100%;
+    margin-left: 300px;
+    margin-right: 300px;
+    align-items: center; 
 }
 
 h1 {
@@ -215,7 +217,7 @@ h2 {
     top: 200px;
     color: black;
     font-style: italic;
-    font-size: larger;
+    font-size: x-large;
     text-align: left;
 }
 
@@ -231,9 +233,10 @@ h3 {
 }
 
 #about_us p {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
+    font-weight: bold;
+    font-style: italic;
     margin-top: 20px;
 }
 
@@ -261,8 +264,8 @@ h3 {
 footer {
     font-style: italic;
     font-weight: bold;
-    margin-top: 0;
+    margin: 0;
     background-color: #c618b7;
     text-align: center;
-    padding: 10px;
+    padding: 10px
 }
