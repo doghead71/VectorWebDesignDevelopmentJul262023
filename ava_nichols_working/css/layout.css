@@ -44,7 +44,7 @@ h3 {margin-top: 1cm;}
     #navigation a:visited {color:orangered;}
 
     #navigation a:link {color:rgb(160, 17, 160);}
-    
+
 nav {
     width:100%;
     display: flex;
@@ -65,11 +65,13 @@ nav {
 .nav_links {
     display:flex;
     list-style-type: none;
+    
 }
 
 .nav_links a {
     padding:20px 15px;
     display: inline-block;
+    text-decoration: none;
 }
 
 #navigation {

@@ -1,16 +1,16 @@
 .nav_links {
-    display:flex;
+    display: flex;
     list-style-type: none;
-    justify-content:space-between;
-    border-style:solid;
+    justify-content: space-between;
+    border-style: solid;
     background-color: aliceblue;
     padding-top: 5px;
     margin-right: 8cm;
 }
 
 .logo img {
-    height:10%;
-    width:10%;
+    height: 10%;
+    width: 10%;
 }
 
 .cards {
@@ -19,33 +19,21 @@
     gap: 10px;
     max-width: 1000px;
     box-shadow: 1cm;
+    min-height: 300px;
+    
 }
 
 .grid {
     width: 100%;
     display: block;
+    border: 3px solid red;
 }
 
 
-@media (max-width: 930px) {
+@media(max-width: 800px) {
     .cards {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        display:inline-block;
+        
+    
     }
-
-    .nav_links {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .grid {
-        display:block;
-        flex-direction:column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-    }
-
-
+}

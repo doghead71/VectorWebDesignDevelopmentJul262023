@@ -46,6 +46,18 @@
         #four {
             order: 4;
         }
+
+        button {
+            margin-bottom: 10px;
+        }
+
+        #form_example > div {
+            border:2px;
+            border-style: groove;
+            border-radius: 5%;
+            border-color: blue;
+            padding: 15px;
+        }
     </style>
 </head>
 
@@ -62,13 +74,78 @@
     </div>
     <h1> TEST ME- Navigate and Flex Display</h1>
     <h2> Flexible Example</h2>
+
+    <button onclick="document.getElementById('three').innerHTML='3'">Click Me</button>
+    <button onclick="toggleThree()">Toggle 3</button>
+    <button onclick="toggle('five')">Toggle 5</button>
+    <button onclick="toggle('one')">Toggle 1</button>
+    <button onclick="toggleTwo()">Toggle 2</button>
+    <button onclick="toggleFour()">Toggle 4</button>
+    <button onclick="printStars(5)">Test*</button>
+
+
     <div id="flexy" class="flex_container">
-        <div>One</div>
-        <div>Two</div>
-        <div>Three</div>
-        <div>Four</div>
-        <div>Five</div>
+        <div id="one">One</div>
+        <div id="two">Two</div>
+        <div id="three">Three</div>
+        <div id="four">Four</div>
+        <div id="five">Five</div>
     </div>
+
+    <div id="form_example" class="flex_container">
+        <div>
+        <h3>Contact Us</h3>
+        <form action="/processAction.html" id="form_container" method="post" onsubmit="return validateForm()">
+            <label for="email">Email</label><br>
+            <input 
+            type="email" 
+            id="email"
+            name="email" 
+            placeholder="Enter email"
+            required
+            >
+            <br><br>
+            <label for="comments">Comments</label><br>
+            <textarea
+            id="comments"
+            name="comments"
+            rows="5"
+            cols="30"
+            placeholder="Enter comments here"
+            required
+            ></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    </div>
+
+    <script>
+        function toggleThree() {
+            let div3 = document.getElementById('three');
+
+            if(div3.innerHTML== 'Three') {             
+             //do action if condition true
+               div3.innerHTML='3';
+            }else {//condition is false
+                //do actions if condition false
+            div3.innerHTML='Three';
+        }
+            
+        }
+
+        function validateForm() {
+            let comments = document.forms["form_container"]["comments"].value;
+            if(comments.length < 10) {
+                alert("Comments should be 10 or more characters");
+                return false;
+            }
+
+            return true;
+        }
+
+    </script>
+    <script src="../js/toggle.js"></script>
 </body>
 </div>
 <div id="video_container">
@@ -85,3 +162,4 @@
 </div>
 
 </html>
+
